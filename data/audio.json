@@ -1,0 +1,22 @@
+{
+  "_doc": "Deixe vazio para usar os sons sintetizados. Para usar arquivos próprios, coloque-os em assets/sounds/ e informe o caminho, ex.: \"music\": \"assets/sounds/musica.mp3\".",
+  "music": "",
+  "sfx": {
+    "select": "",
+    "swap": "",
+    "invalid": "",
+    "match": "",
+    "cascade": "",
+    "special": "",
+    "line": "",
+    "area": "",
+    "combo": "",
+    "win": "",
+    "lose": "",
+    "stage": "",
+    "reflection": "",
+    "star": "",
+    "click": "",
+    "shuffle": ""
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+tests/screenshots/
+tools/thumbs_sheet.jpg
+.DS_Store
+Thumbs.db

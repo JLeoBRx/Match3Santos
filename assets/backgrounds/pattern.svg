@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!-- Padrão sutil inspirado em vitrais: losangos, cruzes e pontos de luz -->
+  <g fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-width="1.2">
+    <path d="M60 4L116 60 60 116 4 60z"/>
+    <path d="M60 30L90 60 60 90 30 60z"/>
+    <path d="M60 50v20M50 60h20" stroke-opacity=".09" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="14"/>
+    <circle cx="120" cy="0" r="14"/>
+    <circle cx="0" cy="120" r="14"/>
+    <circle cx="120" cy="120" r="14"/>
+  </g>
+  <g fill="#ffd66b" fill-opacity=".10">
+    <circle cx="60" cy="18" r="1.6"/>
+    <circle cx="102" cy="60" r="1.6"/>
+    <circle cx="60" cy="102" r="1.6"/>
+    <circle cx="18" cy="60" r="1.6"/>
+  </g>
+</svg>

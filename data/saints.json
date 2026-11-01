@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "_doc": "Cadastro dos santos. 'image' aponta para o retrato original (grafia exata do arquivo). 'thumb' é a miniatura quadrada gerada por tools/generate_thumbs.py a partir de 'crop' (centro do rosto x/y em fração da imagem; size = lado do recorte em fração da menor dimensão). 'bio', 'feastDay' e 'patronage' ficam null até receberem conteúdo revisado.",
+  "saints": [
+    {
+      "id": "santo_agostinho",
+      "order": 1,
+      "name": "Santo Agostinho",
+      "fullName": "Santo Agostinho de Hipona",
+      "file": "Agostinho de Hipoma.jpg",
+      "image": "Santos/Agostinho de Hipoma.jpg",
+      "thumb": "assets/saints/santo_agostinho.jpg",
+      "crop": {
+        "x": 0.595,
+        "y": 0.16,
+        "size": 0.46
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santo_antonio_padua",
+      "order": 2,
+      "name": "Santo Antônio",
+      "fullName": "Santo Antônio de Pádua",
+      "file": "Antonio de Padua.jpg",
+      "image": "Santos/Antonio de Padua.jpg",
+      "thumb": "assets/saints/santo_antonio_padua.jpg",
+      "crop": {
+        "x": 0.52,
+        "y": 0.18,
+        "size": 0.36
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "beata_sandra_sabattini",
+      "order": 3,
+      "name": "Beata Sandra",
+      "fullName": "Beata Sandra Sabattini",
+      "file": "Beata Sandra Sabattini.jpg",
+      "image": "Santos/Beata Sandra Sabattini.jpg",
+      "thumb": "assets/saints/beata_sandra_sabattini.jpg",
+      "crop": {
+        "x": 0.62,
+        "y": 0.32,
+        "size": 0.62
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_carlo_acutis",
+      "order": 4,
+      "name": "São Carlo Acutis",
+      "fullName": "São Carlo Acutis",
+      "file": "Carlo_Acutis.jpg",
+      "image": "Santos/Carlo_Acutis.jpg",
+      "thumb": "assets/saints/sao_carlo_acutis.jpg",
+      "crop": {
+        "x": 0.55,
+        "y": 0.25,
+        "size": 0.86
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "beata_chiara_badano",
+      "order": 5,
+      "name": "Beata Chiara Badano",
+      "fullName": "Beata Chiara Luce Badano",
+      "file": "Chiara Badano.jpg",
+      "image": "Santos/Chiara Badano.jpg",
+      "thumb": "assets/saints/beata_chiara_badano.jpg",
+      "crop": {
+        "x": 0.52,
+        "y": 0.37,
+        "size": 0.9
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "chiara_corbella_petrillo",
+      "order": 6,
+      "name": "Chiara Corbella",
+      "fullName": "Chiara Corbella Petrillo",
+      "file": "Chiara Corbella Petrillo.jpg",
+      "image": "Santos/Chiara Corbella Petrillo.jpg",
+      "thumb": "assets/saints/chiara_corbella_petrillo.jpg",
+      "crop": {
+        "x": 0.57,
+        "y": 0.28,
+        "size": 0.75
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_clara_assis",
+      "order": 7,
+      "name": "Santa Clara",
+      "fullName": "Santa Clara de Assis",
+      "file": "Clara de Assis.jpg",
+      "image": "Santos/Clara de Assis.jpg",
+      "thumb": "assets/saints/santa_clara_assis.jpg",
+      "crop": {
+        "x": 0.5,
+        "y": 0.38,
+        "size": 0.6
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_francisco_assis",
+      "order": 8,
+      "name": "São Francisco",
+      "fullName": "São Francisco de Assis",
+      "file": "Francisco de Assis.jpg",
+      "image": "Santos/Francisco de Assis.jpg",
+      "thumb": "assets/saints/sao_francisco_assis.jpg",
+      "crop": {
+        "x": 0.48,
+        "y": 0.13,
+        "size": 0.95
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_gemma_galgani",
+      "order": 9,
+      "name": "Santa Gemma",
+      "fullName": "Santa Gemma Galgani",
+      "file": "Gemma Galgani.jpg",
+      "image": "Santos/Gemma Galgani.jpg",
+      "thumb": "assets/saints/santa_gemma_galgani.jpg",
+      "crop": {
+        "x": 0.64,
+        "y": 0.4,
+        "size": 0.85
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_joana_darc",
+      "order": 10,
+      "name": "Santa Joana d'Arc",
+      "fullName": "Santa Joana d'Arc",
+      "file": "Joana Darc.jpg",
+      "image": "Santos/Joana Darc.jpg",
+      "thumb": "assets/saints/santa_joana_darc.jpg",
+      "crop": {
+        "x": 0.48,
+        "y": 0.2,
+        "size": 0.36
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_joao_cruz",
+      "order": 11,
+      "name": "São João da Cruz",
+      "fullName": "São João da Cruz",
+      "file": "Joao da Cruz.jpg",
+      "image": "Santos/Joao da Cruz.jpg",
+      "thumb": "assets/saints/sao_joao_cruz.jpg",
+      "crop": {
+        "x": 0.51,
+        "y": 0.23,
+        "size": 0.5
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_john_henry_newman",
+      "order": 12,
+      "name": "São John Henry Newman",
+      "fullName": "São John Henry Newman",
+      "file": "Newman.jpg",
+      "image": "Santos/Newman.jpg",
+      "thumb": "assets/saints/sao_john_henry_newman.jpg",
+      "crop": {
+        "x": 0.56,
+        "y": 0.22,
+        "size": 0.46
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_padre_pio",
+      "order": 13,
+      "name": "São Padre Pio",
+      "fullName": "São Padre Pio de Pietrelcina",
+      "file": "Padre Pio.jpg",
+      "image": "Santos/Padre Pio.jpg",
+      "thumb": "assets/saints/sao_padre_pio.jpg",
+      "crop": {
+        "x": 0.54,
+        "y": 0.25,
+        "size": 0.5
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_rita_cassia",
+      "order": 14,
+      "name": "Santa Rita",
+      "fullName": "Santa Rita de Cássia",
+      "file": "Rita de Cássia.jpg",
+      "image": "Santos/Rita de Cássia.jpg",
+      "thumb": "assets/saints/santa_rita_cassia.jpg",
+      "crop": {
+        "x": 0.6,
+        "y": 0.32,
+        "size": 0.45
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_dulce",
+      "order": 15,
+      "name": "Santa Dulce",
+      "fullName": "Santa Dulce dos Pobres",
+      "file": "Santa Dulce.jpg",
+      "image": "Santos/Santa Dulce.jpg",
+      "thumb": "assets/saints/santa_dulce.jpg",
+      "crop": {
+        "x": 0.48,
+        "y": 0.2,
+        "size": 0.7
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_filomena",
+      "order": 16,
+      "name": "Santa Filomena",
+      "fullName": "Santa Filomena",
+      "file": "Santa Filomena.jpg",
+      "image": "Santos/Santa Filomena.jpg",
+      "thumb": "assets/saints/santa_filomena.jpg",
+      "crop": {
+        "x": 0.42,
+        "y": 0.2,
+        "size": 0.5
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_luzia",
+      "order": 17,
+      "name": "Santa Luzia",
+      "fullName": "Santa Luzia",
+      "file": "Santa Luzia.jpg",
+      "image": "Santos/Santa Luzia.jpg",
+      "thumb": "assets/saints/santa_luzia.jpg",
+      "crop": {
+        "x": 0.63,
+        "y": 0.39,
+        "size": 0.42
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_joao_bosco",
+      "order": 18,
+      "name": "São João Bosco",
+      "fullName": "São João Bosco",
+      "file": "Sao Joao Bosco.jpg",
+      "image": "Santos/Sao Joao Bosco.jpg",
+      "thumb": "assets/saints/sao_joao_bosco.jpg",
+      "crop": {
+        "x": 0.49,
+        "y": 0.18,
+        "size": 0.55
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_bento",
+      "order": 19,
+      "name": "São Bento",
+      "fullName": "São Bento",
+      "file": "São Bento.jpg",
+      "image": "Santos/São Bento.jpg",
+      "thumb": "assets/saints/sao_bento.jpg",
+      "crop": {
+        "x": 0.52,
+        "y": 0.36,
+        "size": 0.75
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_domingos_savio",
+      "order": 20,
+      "name": "São Domingos Sávio",
+      "fullName": "São Domingos Sávio",
+      "file": "São Domingo Savio.jpg",
+      "image": "Santos/São Domingo Savio.jpg",
+      "thumb": "assets/saints/sao_domingos_savio.jpg",
+      "crop": {
+        "x": 0.5,
+        "y": 0.28,
+        "size": 0.6
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_gabriel_das_dores",
+      "order": 21,
+      "name": "São Gabriel",
+      "fullName": "São Gabriel de Nossa Senhora das Dores",
+      "file": "São Gabriel da Virgem Dolorosa.jpg",
+      "image": "Santos/São Gabriel da Virgem Dolorosa.jpg",
+      "thumb": "assets/saints/sao_gabriel_das_dores.jpg",
+      "crop": {
+        "x": 0.47,
+        "y": 0.11,
+        "size": 0.55
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_jose",
+      "order": 22,
+      "name": "São José",
+      "fullName": "São José",
+      "file": "São José.jpg",
+      "image": "Santos/São José.jpg",
+      "thumb": "assets/saints/sao_jose.jpg",
+      "crop": {
+        "x": 0.57,
+        "y": 0.18,
+        "size": 0.5
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_luis_montfort",
+      "order": 23,
+      "name": "São Luís de Montfort",
+      "fullName": "São Luís Maria Grignion de Montfort",
+      "file": "São Luís Maria Grignion de Montfort.jpg",
+      "image": "Santos/São Luís Maria Grignion de Montfort.jpg",
+      "thumb": "assets/saints/sao_luis_montfort.jpg",
+      "crop": {
+        "x": 0.49,
+        "y": 0.2,
+        "size": 0.6
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_pier_giorgio_frassati",
+      "order": 24,
+      "name": "São Pier Giorgio",
+      "fullName": "São Pier Giorgio Frassati",
+      "file": "São Pier Giorgio Frassati.jpg",
+      "image": "Santos/São Pier Giorgio Frassati.jpg",
+      "thumb": "assets/saints/sao_pier_giorgio_frassati.jpg",
+      "crop": {
+        "x": 0.49,
+        "y": 0.22,
+        "size": 0.75
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_tarcisio",
+      "order": 25,
+      "name": "São Tarcísio",
+      "fullName": "São Tarcísio",
+      "file": "Tarcisio de Roma.jpg",
+      "image": "Santos/Tarcisio de Roma.jpg",
+      "thumb": "assets/saints/sao_tarcisio.jpg",
+      "crop": {
+        "x": 0.79,
+        "y": 0.43,
+        "size": 0.4
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_teresa_avila",
+      "order": 26,
+      "name": "Santa Teresa d'Ávila",
+      "fullName": "Santa Teresa d'Ávila",
+      "file": "Teresa Davila.jpg",
+      "image": "Santos/Teresa Davila.jpg",
+      "thumb": "assets/saints/santa_teresa_avila.jpg",
+      "crop": {
+        "x": 0.46,
+        "y": 0.23,
+        "size": 0.55
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_teresinha_calcuta",
+      "order": 27,
+      "name": "Santa Teresa de Calcutá",
+      "fullName": "Santa Teresa de Calcutá",
+      "file": "Teresa de Calcuta.jpg",
+      "image": "Santos/Teresa de Calcuta.jpg",
+      "thumb": "assets/saints/santa_teresinha_calcuta.jpg",
+      "crop": {
+        "x": 0.44,
+        "y": 0.35,
+        "size": 0.8
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "santa_teresinha_jesus",
+      "order": 28,
+      "name": "Santa Teresinha",
+      "fullName": "Santa Teresinha do Menino Jesus",
+      "file": "Teresinha de Jesus.jpg",
+      "image": "Santos/Teresinha de Jesus.jpg",
+      "thumb": "assets/saints/santa_teresinha_jesus.jpg",
+      "crop": {
+        "x": 0.49,
+        "y": 0.37,
+        "size": 0.75
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_tomas_aquino",
+      "order": 29,
+      "name": "São Tomás de Aquino",
+      "fullName": "São Tomás de Aquino",
+      "file": "Tomas de aquino.jpg",
+      "image": "Santos/Tomas de aquino.jpg",
+      "thumb": "assets/saints/sao_tomas_aquino.jpg",
+      "crop": {
+        "x": 0.51,
+        "y": 0.46,
+        "size": 0.45
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    },
+    {
+      "id": "sao_joao_maria_vianney",
+      "order": 30,
+      "name": "São João Maria Vianney",
+      "fullName": "São João Maria Vianney",
+      "file": "Vianney.png",
+      "image": "Santos/Vianney.png",
+      "thumb": "assets/saints/sao_joao_maria_vianney.jpg",
+      "crop": {
+        "x": 0.49,
+        "y": 0.2,
+        "size": 0.65
+      },
+      "bio": null,
+      "feastDay": null,
+      "patronage": null
+    }
+  ]
+}

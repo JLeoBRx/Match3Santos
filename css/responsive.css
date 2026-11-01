@@ -1,0 +1,428 @@
+/* ==========================================================================
+   Match dos Santos — ajustes responsivos
+   (o tamanho do tabuleiro é calculado em js/gameScreen.js → --board-size)
+   ========================================================================== */
+
+/* ---------- Celulares estreitos ---------- */
+@media (max-width: 480px) {
+  .screen-inner {
+    padding: 10px 12px 32px;
+  }
+
+  .home-content {
+    padding-top: 18px;
+  }
+
+  .home-records {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .album-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .album-meter {
+    grid-column: 1 / -1;
+  }
+
+  .album-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .saint-card {
+    padding: 8px;
+  }
+
+  .saint-card-name {
+    font-size: 0.86rem;
+  }
+
+  .modal {
+    padding: 22px 16px 16px;
+    border-radius: 24px;
+  }
+
+  .modal-title {
+    font-size: 1.4rem;
+  }
+
+  .rstar .icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .rstar:nth-child(2) .icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .refl-body {
+    padding: 0 12px 14px;
+  }
+
+  /* HUD compacto */
+  .hud {
+    padding: 8px 10px;
+    gap: 6px;
+    border-radius: 18px;
+  }
+
+  .hud-back {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hud-sub {
+    font-size: 0.95rem;
+  }
+
+  .hud-score-value {
+    font-size: 1.2rem;
+  }
+
+  .hud-moves {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hud-moves strong {
+    font-size: 1.3rem;
+  }
+
+  .goal-chip {
+    font-size: 0.76rem;
+  }
+
+  .goal-chip img,
+  .goal-chip .goal-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .board-frame {
+    padding: 5px;
+    border-radius: 20px;
+  }
+
+  .board {
+    border-radius: 16px;
+  }
+
+  .board-cell {
+    border-radius: 7px;
+  }
+
+  /* Painel compacto */
+  .reflection-panel {
+    border-radius: 18px;
+  }
+
+  .rp-body {
+    padding: 6px 12px 10px;
+  }
+
+  .rp-portrait {
+    width: 54px;
+    height: 54px;
+    border-radius: 15px;
+  }
+
+  .rp-portrait img {
+    border-radius: 12px;
+  }
+
+  .rp-title {
+    font-size: 1rem;
+  }
+
+  .rp-text {
+    font-size: 0.93rem;
+    line-height: 1.55;
+  }
+
+  .rp-question {
+    font-size: 0.93rem;
+  }
+
+  .rp-dots {
+    grid-template-columns: repeat(5, 6px);
+  }
+
+  .rp-dots span {
+    width: 6px;
+    height: 6px;
+  }
+
+  .rp-total {
+    padding: 6px 12px 8px;
+    font-size: 0.66rem;
+  }
+
+  .rp-welcome-text {
+    font-size: 0.86rem;
+  }
+
+  .screen-game {
+    padding: calc(var(--safe-t) + 6px) calc(var(--safe-r) + 6px) calc(var(--safe-b) + 6px) calc(var(--safe-l) + 6px);
+  }
+
+  .game-layout {
+    gap: 8px;
+  }
+}
+
+/* ---------- Telas muito baixas (celular deitado, notebooks pequenos) ---------- */
+@media (max-height: 560px) {
+  .home-content {
+    padding-top: 12px;
+  }
+
+  .logo {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .logo-mark {
+    width: 70px;
+  }
+
+  .logo-words {
+    align-items: flex-start;
+  }
+
+  .logo-match,
+  .logo-santos {
+    font-size: 2.2rem;
+  }
+
+  .home-match {
+    display: none;
+  }
+
+  .tagline {
+    margin-bottom: 14px;
+  }
+
+  .home-records {
+    margin-top: 14px;
+  }
+
+  .btn-xl {
+    min-height: 58px;
+  }
+}
+
+/* Paisagem baixa: menu em duas colunas */
+@media (max-height: 560px) and (min-width: 700px) {
+  .home-content {
+    width: min(820px, 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 28px;
+    align-items: center;
+  }
+
+  .logo,
+  .tagline {
+    grid-column: 1;
+  }
+
+  .home-menu {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+
+  .home-records {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---------- Layout lateral da partida: HUD mais rico ---------- */
+.game-layout.is-side .hud {
+  padding: 14px;
+}
+
+.game-layout.is-side .hud-goals {
+  gap: 8px;
+}
+
+/* Painel lateral estreito (paisagem em celular) */
+@media (max-height: 520px) {
+  .game-layout.is-side .hud {
+    padding: 8px 10px;
+    gap: 6px;
+  }
+
+  .game-layout.is-side .hud-moves {
+    width: 46px;
+    height: 46px;
+  }
+
+  .game-layout.is-side .hud-moves strong {
+    font-size: 1.2rem;
+  }
+
+  .game-layout.is-side .rp-portrait {
+    width: 48px;
+    height: 48px;
+  }
+
+  .game-layout.is-side .rp-top {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .game-layout.is-side .rp-progress {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .game-layout.is-side .rp-total {
+    display: none;
+  }
+}
+
+/* No layout lateral o cartão de reflexão tem mais espaço vertical */
+.game-layout.is-side .rp-text {
+  font-size: 1rem;
+}
+
+/* ---------- Tablets e computadores ---------- */
+@media (min-width: 900px) {
+  .album-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 16px;
+  }
+
+  .home-content {
+    width: min(480px, 100%);
+  }
+}
+
+@media (max-width: 760px) {
+  .saint-hero {
+    grid-template-columns: 1fr;
+    padding: 14px;
+  }
+
+  .saint-hero-img {
+    width: min(100%, 340px);
+    justify-self: center;
+  }
+
+  .saint-hero-info h2 {
+    text-align: center;
+  }
+
+  .hero-stats {
+    justify-content: center;
+  }
+}
+
+/* Painel abaixo, tela baixa: cartão compacto e sem rodapé de progresso geral */
+@media (max-height: 700px) {
+  .game-layout.is-bottom .rp-total {
+    display: none;
+  }
+
+  .game-layout.is-bottom .rp-header {
+    padding-top: 6px;
+  }
+
+  .game-layout.is-bottom .rp-portrait {
+    width: 46px;
+    height: 46px;
+    border-radius: 13px;
+  }
+
+  .game-layout.is-bottom .rp-portrait img {
+    border-radius: 10px;
+  }
+
+  .game-layout.is-bottom .rp-top {
+    gap: 10px;
+  }
+
+  .game-layout.is-bottom .rp-title {
+    font-size: 0.98rem;
+    margin: 1px 0 3px;
+  }
+
+  .game-layout.is-bottom .rp-card {
+    gap: 8px;
+  }
+}
+
+/* Telas grandes: painel lateral com leitura mais confortável */
+@media (min-width: 1400px) and (min-height: 800px) {
+  .game-layout.is-side .hud {
+    padding: 18px;
+    gap: 12px;
+  }
+
+  .game-layout.is-side .hud-sub {
+    font-size: 1.25rem;
+  }
+
+  .game-layout.is-side .hud-moves {
+    width: 70px;
+    height: 70px;
+  }
+
+  .game-layout.is-side .hud-moves strong {
+    font-size: 1.8rem;
+  }
+
+  .game-layout.is-side .hud-score-value {
+    font-size: 1.7rem;
+  }
+
+  .game-layout.is-side .rp-body {
+    padding: 12px 20px 16px;
+  }
+
+  .game-layout.is-side .rp-portrait {
+    width: 86px;
+    height: 86px;
+    border-radius: 22px;
+  }
+
+  .game-layout.is-side .rp-portrait img {
+    border-radius: 18px;
+  }
+
+  .game-layout.is-side .rp-saint {
+    font-size: 0.92rem;
+  }
+
+  .game-layout.is-side .rp-title {
+    font-size: 1.4rem;
+  }
+
+  .game-layout.is-side .rp-text {
+    font-size: 1.1rem;
+    line-height: 1.65;
+  }
+
+  .game-layout.is-side .rp-question {
+    font-size: 1.1rem;
+    padding: 14px 16px;
+  }
+
+  .game-layout.is-side .rp-card {
+    gap: 14px;
+  }
+}
+
+/* Mouse: realce ao passar o cursor nas peças */
+@media (hover: hover) and (pointer: fine) {
+  .tile:not(.clearing):hover .tile-inner {
+    filter: brightness(1.12);
+  }
+
+  .board {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Testes — Match dos Santos</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #1c0c45;
+        color: #f4efff;
+        margin: 0;
+        padding: 24px;
+      }
+      h1 {
+        margin: 0 0 6px;
+      }
+      p.sub {
+        color: #c9bdf0;
+        margin: 0 0 18px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        gap: 6px;
+        max-width: 860px;
+      }
+      li {
+        padding: 10px 14px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.06);
+      }
+      li.ok::before {
+        content: '✔ ';
+        color: #6fdc9b;
+      }
+      li.fail {
+        background: rgba(255, 93, 108, 0.18);
+      }
+      li.fail::before {
+        content: '✘ ';
+        color: #ff5d6c;
+      }
+      li small {
+        display: block;
+        color: #ffb3bc;
+        margin-top: 4px;
+      }
+      #summary {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 12px 0;
+      }
+      a {
+        color: #ffcf5a;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testes automáticos</h1>
+    <p class="sub">Lógica do tabuleiro, combinações, pontuação, reflexões, salvamento, fases e dados. <a href="../index.html">Voltar ao jogo</a></p>
+    <div id="summary">Executando…</div>
+    <ul id="results"></ul>
+    <script type="module">
+      import { runAll, dataTests } from './unit.tests.js';
+      dataTests(async (path) => {
+        const res = await fetch('../' + path, { cache: 'no-cache' });
+        if (!res.ok) throw new Error('Falha ao carregar ' + path);
+        return res.json();
+      });
+      const list = document.getElementById('results');
+      const result = await runAll((ok, name, err) => {
+        const li = document.createElement('li');
+        li.className = ok ? 'ok' : 'fail';
+        li.textContent = name;
+        if (err) {
+          const small = document.createElement('small');
+          small.textContent = err.message;
+          li.append(small);
+        }
+        list.append(li);
+      });
+      const s = document.getElementById('summary');
+      s.textContent = `${result.pass}/${result.total} testes passaram`;
+      s.style.color = result.fail ? '#ff5d6c' : '#6fdc9b';
+      window.__testResult = result;
+    </script>
+  </body>
+</html>

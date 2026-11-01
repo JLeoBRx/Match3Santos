@@ -1,0 +1,893 @@
+{
+  "schema_version": 1,
+  "_doc": {
+    "como_adicionar": "Acrescente um objeto ao array 'levels' com um 'id' sequencial. Nenhuma alteração no código é necessária.",
+    "campos": {
+      "id": "número da fase (sequencial, começando em 1)",
+      "name": "título curto exibido no mapa",
+      "chapter": "capítulo (agrupa as fases no mapa)",
+      "featured": "id do santo em destaque (aparece na apresentação da fase)",
+      "moves": "quantidade de movimentos",
+      "saints": "ids dos santos que aparecem no tabuleiro (4 a 8). Alternativa: 'saintCount' para sortear",
+      "goals": "objetivos: score (pontos), clear (peças), saint (peças de um santo), specials (peças especiais). Vários = objetivo combinado",
+      "stars": "pontuação final para 1, 2 e 3 estrelas (a vitória garante ao menos 1). Movimentos que sobram viram bônus",
+      "moveBonus": "opcional — pontos por movimento restante ao vencer (padrão 120)",
+      "targetScore": "opcional — atalho equivalente a goals: [{type: 'score', target: N}]"
+    },
+    "balanceamento": "Use 'node tools/simulate_levels.mjs' para estimar a dificuldade."
+  },
+  "levels": [
+    {
+      "id": 1,
+      "name": "Simplicidade",
+      "chapter": "Primeiros Passos",
+      "featured": "sao_francisco_assis",
+      "moves": 20,
+      "saints": [
+        "sao_francisco_assis",
+        "sao_joao_cruz",
+        "sao_carlo_acutis",
+        "santa_filomena",
+        "santa_teresinha_jesus"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 3000
+        }
+      ],
+      "stars": [
+        3000,
+        4900,
+        6000
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fidelidade",
+      "chapter": "Primeiros Passos",
+      "featured": "sao_carlo_acutis",
+      "moves": 18,
+      "saints": [
+        "sao_carlo_acutis",
+        "sao_francisco_assis",
+        "santa_teresinha_jesus",
+        "sao_joao_cruz",
+        "sao_jose"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 80
+        }
+      ],
+      "stars": [
+        3800,
+        4500,
+        5800
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Confiança",
+      "chapter": "Primeiros Passos",
+      "featured": "santa_teresinha_jesus",
+      "moves": 20,
+      "saints": [
+        "santa_teresinha_jesus",
+        "sao_carlo_acutis",
+        "sao_jose",
+        "sao_francisco_assis",
+        "santa_dulce",
+        "sao_joao_cruz"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 2500
+        }
+      ],
+      "stars": [
+        2500,
+        3700,
+        4300
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Discrição",
+      "chapter": "Primeiros Passos",
+      "featured": "sao_jose",
+      "moves": 20,
+      "saints": [
+        "sao_jose",
+        "santa_teresinha_jesus",
+        "santa_dulce",
+        "sao_carlo_acutis",
+        "sao_padre_pio",
+        "sao_francisco_assis"
+      ],
+      "goals": [
+        {
+          "type": "saint",
+          "saint": "sao_jose",
+          "target": 14
+        }
+      ],
+      "stars": [
+        2600,
+        3200,
+        4600
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Compaixão",
+      "chapter": "Primeiros Passos",
+      "featured": "santa_dulce",
+      "moves": 18,
+      "saints": [
+        "santa_dulce",
+        "sao_jose",
+        "sao_padre_pio",
+        "santa_teresinha_jesus",
+        "santo_antonio_padua",
+        "sao_carlo_acutis"
+      ],
+      "goals": [
+        {
+          "type": "specials",
+          "target": 3
+        }
+      ],
+      "stars": [
+        2300,
+        2600,
+        3500
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Perseverança",
+      "chapter": "Primeiros Passos",
+      "featured": "sao_padre_pio",
+      "moves": 22,
+      "saints": [
+        "sao_padre_pio",
+        "santa_dulce",
+        "santo_antonio_padua",
+        "sao_jose",
+        "santa_clara_assis",
+        "santa_teresinha_jesus"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 3000
+        },
+        {
+          "type": "saint",
+          "saint": "sao_padre_pio",
+          "target": 10
+        }
+      ],
+      "stars": [
+        3000,
+        4100,
+        5000
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Coerência",
+      "chapter": "Primeiros Passos",
+      "featured": "santo_antonio_padua",
+      "moves": 22,
+      "saints": [
+        "santo_antonio_padua",
+        "sao_padre_pio",
+        "santa_clara_assis",
+        "santa_dulce",
+        "sao_joao_bosco",
+        "sao_jose"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 95
+        }
+      ],
+      "stars": [
+        3500,
+        4100,
+        5600
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Desapego",
+      "chapter": "Primeiros Passos",
+      "featured": "santa_clara_assis",
+      "moves": 22,
+      "saints": [
+        "santa_clara_assis",
+        "santo_antonio_padua",
+        "sao_joao_bosco",
+        "sao_padre_pio",
+        "santa_rita_cassia",
+        "santa_dulce"
+      ],
+      "goals": [
+        {
+          "type": "saint",
+          "saint": "santa_clara_assis",
+          "target": 16
+        },
+        {
+          "type": "saint",
+          "saint": "santo_antonio_padua",
+          "target": 16
+        }
+      ],
+      "stars": [
+        3500,
+        4300,
+        5800
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Amor educativo",
+      "chapter": "Primeiros Passos",
+      "featured": "sao_joao_bosco",
+      "moves": 22,
+      "saints": [
+        "sao_joao_bosco",
+        "santa_clara_assis",
+        "santa_rita_cassia",
+        "santo_antonio_padua",
+        "sao_pier_giorgio_frassati",
+        "sao_padre_pio"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 3600
+        }
+      ],
+      "stars": [
+        3600,
+        4400,
+        5400
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Paz",
+      "chapter": "Primeiros Passos",
+      "featured": "santa_rita_cassia",
+      "moves": 22,
+      "saints": [
+        "santa_rita_cassia",
+        "sao_joao_bosco",
+        "sao_pier_giorgio_frassati",
+        "santa_clara_assis",
+        "beata_chiara_badano"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 7000
+        },
+        {
+          "type": "specials",
+          "target": 3
+        }
+      ],
+      "stars": [
+        7000,
+        8200,
+        9500
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Amizade",
+      "chapter": "Caminho de Luz",
+      "featured": "sao_pier_giorgio_frassati",
+      "moves": 24,
+      "saints": [
+        "sao_pier_giorgio_frassati",
+        "santa_rita_cassia",
+        "beata_chiara_badano",
+        "sao_joao_bosco",
+        "santa_teresinha_calcuta",
+        "santa_clara_assis"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 110
+        },
+        {
+          "type": "saint",
+          "saint": "sao_pier_giorgio_frassati",
+          "target": 15
+        }
+      ],
+      "stars": [
+        3700,
+        4600,
+        5700
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Esperança",
+      "chapter": "Caminho de Luz",
+      "featured": "beata_chiara_badano",
+      "moves": 20,
+      "saints": [
+        "beata_chiara_badano",
+        "sao_pier_giorgio_frassati",
+        "santa_teresinha_calcuta",
+        "santa_rita_cassia",
+        "santo_agostinho",
+        "sao_joao_bosco"
+      ],
+      "goals": [
+        {
+          "type": "specials",
+          "target": 4
+        }
+      ],
+      "stars": [
+        2900,
+        3400,
+        4500
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Caridade",
+      "chapter": "Caminho de Luz",
+      "featured": "santa_teresinha_calcuta",
+      "moves": 24,
+      "saints": [
+        "santa_teresinha_calcuta",
+        "beata_chiara_badano",
+        "santo_agostinho",
+        "sao_pier_giorgio_frassati",
+        "santa_joana_darc",
+        "santa_rita_cassia"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 4200
+        }
+      ],
+      "stars": [
+        4200,
+        5100,
+        5900
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Busca sincera",
+      "chapter": "Caminho de Luz",
+      "featured": "santo_agostinho",
+      "moves": 24,
+      "saints": [
+        "santo_agostinho",
+        "santa_teresinha_calcuta",
+        "santa_joana_darc",
+        "beata_chiara_badano",
+        "sao_domingos_savio",
+        "sao_pier_giorgio_frassati"
+      ],
+      "goals": [
+        {
+          "type": "saint",
+          "saint": "santo_agostinho",
+          "target": 20
+        },
+        {
+          "type": "saint",
+          "saint": "santa_teresinha_calcuta",
+          "target": 15
+        }
+      ],
+      "stars": [
+        3700,
+        4900,
+        6000
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Coragem",
+      "chapter": "Caminho de Luz",
+      "featured": "santa_joana_darc",
+      "moves": 27,
+      "saints": [
+        "santa_joana_darc",
+        "santo_agostinho",
+        "sao_domingos_savio",
+        "santa_teresinha_calcuta",
+        "santa_luzia",
+        "beata_chiara_badano",
+        "sao_bento"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 3200
+        }
+      ],
+      "stars": [
+        3200,
+        3900,
+        4900
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Santidade",
+      "chapter": "Caminho de Luz",
+      "featured": "sao_domingos_savio",
+      "moves": 24,
+      "saints": [
+        "sao_domingos_savio",
+        "santa_joana_darc",
+        "santa_luzia",
+        "santo_agostinho",
+        "sao_bento",
+        "santa_teresinha_calcuta"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 125
+        }
+      ],
+      "stars": [
+        4400,
+        5100,
+        6500
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Honestidade",
+      "chapter": "Caminho de Luz",
+      "featured": "santa_luzia",
+      "moves": 24,
+      "saints": [
+        "santa_luzia",
+        "sao_domingos_savio",
+        "sao_bento",
+        "santa_joana_darc",
+        "chiara_corbella_petrillo",
+        "santo_agostinho"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 4000
+        },
+        {
+          "type": "saint",
+          "saint": "santa_luzia",
+          "target": 14
+        }
+      ],
+      "stars": [
+        4000,
+        5100,
+        6200
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Equilíbrio",
+      "chapter": "Caminho de Luz",
+      "featured": "sao_bento",
+      "moves": 25,
+      "saints": [
+        "sao_bento",
+        "santa_luzia",
+        "chiara_corbella_petrillo",
+        "sao_domingos_savio",
+        "sao_tomas_aquino",
+        "santa_joana_darc"
+      ],
+      "goals": [
+        {
+          "type": "specials",
+          "target": 5
+        },
+        {
+          "type": "clear",
+          "target": 80
+        }
+      ],
+      "stars": [
+        4000,
+        4500,
+        5700
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Doação",
+      "chapter": "Caminho de Luz",
+      "featured": "chiara_corbella_petrillo",
+      "moves": 28,
+      "saints": [
+        "chiara_corbella_petrillo",
+        "sao_bento",
+        "sao_tomas_aquino",
+        "santa_luzia",
+        "beata_sandra_sabattini",
+        "sao_domingos_savio",
+        "sao_joao_maria_vianney"
+      ],
+      "goals": [
+        {
+          "type": "saint",
+          "saint": "chiara_corbella_petrillo",
+          "target": 18
+        },
+        {
+          "type": "saint",
+          "saint": "sao_bento",
+          "target": 14
+        }
+      ],
+      "stars": [
+        3100,
+        3900,
+        5100
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Busca da verdade",
+      "chapter": "Caminho de Luz",
+      "featured": "sao_tomas_aquino",
+      "moves": 26,
+      "saints": [
+        "sao_tomas_aquino",
+        "chiara_corbella_petrillo",
+        "beata_sandra_sabattini",
+        "sao_bento",
+        "sao_joao_maria_vianney",
+        "santa_luzia"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 5000
+        },
+        {
+          "type": "specials",
+          "target": 3
+        }
+      ],
+      "stars": [
+        5000,
+        6200,
+        7400
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Disponibilidade",
+      "chapter": "Rumo ao Alto",
+      "featured": "beata_sandra_sabattini",
+      "moves": 25,
+      "saints": [
+        "beata_sandra_sabattini",
+        "sao_tomas_aquino",
+        "sao_joao_maria_vianney",
+        "chiara_corbella_petrillo",
+        "santa_teresa_avila",
+        "sao_bento"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 130
+        },
+        {
+          "type": "saint",
+          "saint": "beata_sandra_sabattini",
+          "target": 15
+        }
+      ],
+      "stars": [
+        4500,
+        5100,
+        6300
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Intercessão",
+      "chapter": "Rumo ao Alto",
+      "featured": "sao_joao_maria_vianney",
+      "moves": 28,
+      "saints": [
+        "sao_joao_maria_vianney",
+        "beata_sandra_sabattini",
+        "santa_teresa_avila",
+        "sao_tomas_aquino",
+        "sao_gabriel_das_dores",
+        "chiara_corbella_petrillo",
+        "santa_gemma_galgani"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 3800
+        }
+      ],
+      "stars": [
+        3800,
+        4600,
+        5200
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Amizade com Deus",
+      "chapter": "Rumo ao Alto",
+      "featured": "santa_teresa_avila",
+      "moves": 24,
+      "saints": [
+        "santa_teresa_avila",
+        "sao_joao_maria_vianney",
+        "sao_gabriel_das_dores",
+        "beata_sandra_sabattini",
+        "santa_gemma_galgani",
+        "sao_tomas_aquino"
+      ],
+      "goals": [
+        {
+          "type": "saint",
+          "saint": "santa_teresa_avila",
+          "target": 20
+        },
+        {
+          "type": "saint",
+          "saint": "sao_joao_maria_vianney",
+          "target": 20
+        }
+      ],
+      "stars": [
+        3900,
+        4900,
+        6100
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Devoção",
+      "chapter": "Rumo ao Alto",
+      "featured": "sao_gabriel_das_dores",
+      "moves": 26,
+      "saints": [
+        "sao_gabriel_das_dores",
+        "santa_teresa_avila",
+        "santa_gemma_galgani",
+        "sao_joao_maria_vianney",
+        "sao_tarcisio",
+        "beata_sandra_sabattini"
+      ],
+      "goals": [
+        {
+          "type": "specials",
+          "target": 6
+        }
+      ],
+      "stars": [
+        4200,
+        5300,
+        6300
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Humildade",
+      "chapter": "Rumo ao Alto",
+      "featured": "santa_gemma_galgani",
+      "moves": 28,
+      "saints": [
+        "santa_gemma_galgani",
+        "sao_gabriel_das_dores",
+        "sao_tarcisio",
+        "santa_teresa_avila",
+        "sao_john_henry_newman",
+        "sao_joao_maria_vianney",
+        "sao_luis_montfort"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 135
+        }
+      ],
+      "stars": [
+        4200,
+        4700,
+        5800
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Reverência",
+      "chapter": "Rumo ao Alto",
+      "featured": "sao_tarcisio",
+      "moves": 27,
+      "saints": [
+        "sao_tarcisio",
+        "santa_gemma_galgani",
+        "sao_john_henry_newman",
+        "sao_gabriel_das_dores",
+        "sao_luis_montfort",
+        "santa_teresa_avila"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 5200
+        },
+        {
+          "type": "saint",
+          "saint": "sao_tarcisio",
+          "target": 15
+        }
+      ],
+      "stars": [
+        5200,
+        6300,
+        7100
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Discernimento",
+      "chapter": "Rumo ao Alto",
+      "featured": "sao_john_henry_newman",
+      "moves": 30,
+      "saints": [
+        "sao_john_henry_newman",
+        "sao_tarcisio",
+        "sao_luis_montfort",
+        "santa_gemma_galgani",
+        "santa_filomena",
+        "sao_gabriel_das_dores",
+        "sao_joao_cruz"
+      ],
+      "goals": [
+        {
+          "type": "saint",
+          "saint": "sao_john_henry_newman",
+          "target": 18
+        },
+        {
+          "type": "specials",
+          "target": 4
+        }
+      ],
+      "stars": [
+        3600,
+        4300,
+        5400
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Missão",
+      "chapter": "Rumo ao Alto",
+      "featured": "sao_luis_montfort",
+      "moves": 26,
+      "saints": [
+        "sao_luis_montfort",
+        "sao_john_henry_newman",
+        "santa_filomena",
+        "sao_tarcisio",
+        "sao_joao_cruz",
+        "santa_gemma_galgani"
+      ],
+      "goals": [
+        {
+          "type": "clear",
+          "target": 140
+        },
+        {
+          "type": "specials",
+          "target": 5
+        }
+      ],
+      "stars": [
+        5000,
+        5700,
+        7300
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Dignidade",
+      "chapter": "Rumo ao Alto",
+      "featured": "santa_filomena",
+      "moves": 32,
+      "saints": [
+        "santa_filomena",
+        "sao_luis_montfort",
+        "sao_joao_cruz",
+        "sao_john_henry_newman",
+        "sao_francisco_assis",
+        "sao_tarcisio",
+        "sao_carlo_acutis"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 4500
+        },
+        {
+          "type": "saint",
+          "saint": "santa_filomena",
+          "target": 15
+        },
+        {
+          "type": "saint",
+          "saint": "sao_luis_montfort",
+          "target": 12
+        }
+      ],
+      "stars": [
+        4500,
+        5100,
+        6400
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Recolhimento",
+      "chapter": "Rumo ao Alto",
+      "featured": "sao_joao_cruz",
+      "moves": 30,
+      "saints": [
+        "sao_joao_cruz",
+        "santa_filomena",
+        "sao_francisco_assis",
+        "sao_luis_montfort",
+        "sao_carlo_acutis",
+        "sao_john_henry_newman"
+      ],
+      "goals": [
+        {
+          "type": "score",
+          "target": 7000
+        },
+        {
+          "type": "clear",
+          "target": 150
+        },
+        {
+          "type": "specials",
+          "target": 5
+        }
+      ],
+      "stars": [
+        7000,
+        7700,
+        8600
+      ]
+    }
+  ]
+}

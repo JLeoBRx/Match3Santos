@@ -1,0 +1,483 @@
+/* ==========================================================================
+   Match dos Santos — animações (keyframes) e modo de movimento reduzido
+   ========================================================================== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes floatTile {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(var(--rot, 6deg));
+  }
+  50% {
+    transform: translate(6px, -18px) rotate(calc(var(--rot, 6deg) * -1));
+  }
+}
+
+@keyframes demoDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-26px) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes demoPop {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  35% {
+    transform: scale(1.18);
+    filter: brightness(1.6);
+    box-shadow: 0 0 24px 8px rgba(255, 214, 107, 0.9);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+    filter: brightness(2);
+  }
+}
+
+@keyframes nodePulse {
+  0%,
+  100% {
+    box-shadow:
+      0 5px 0 #c86a1e,
+      0 0 0 5px rgba(255, 255, 255, 0.2),
+      0 10px 24px rgba(255, 150, 60, 0.45);
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow:
+      0 5px 0 #c86a1e,
+      0 0 0 12px rgba(255, 207, 90, 0.18),
+      0 10px 30px rgba(255, 150, 60, 0.7);
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes modalOut {
+  to {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+}
+
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes scoreBump {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.16);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes movesPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes chipDone {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes selectedPulse {
+  0%,
+  100% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@keyframes hintNudge {
+  0%,
+  55%,
+  100% {
+    transform: translate(0, 0);
+  }
+  20%,
+  40% {
+    transform: translate(var(--hint-x, 0), var(--hint-y, 0)) scale(1.04);
+    box-shadow:
+      0 0 0 2px rgba(255, 255, 255, 0.9),
+      0 0 14px 4px rgba(255, 214, 107, 0.7);
+  }
+}
+
+@keyframes shakeX {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6%);
+  }
+  75% {
+    transform: translateX(6%);
+  }
+}
+
+@keyframes specialGlow {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.18);
+  }
+}
+
+@keyframes beamPulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes arrowsH {
+  0%,
+  100% {
+    transform: scaleX(0.9);
+  }
+  50% {
+    transform: scaleX(1.06);
+  }
+}
+
+@keyframes arrowsV {
+  0%,
+  100% {
+    transform: scaleY(0.9);
+  }
+  50% {
+    transform: scaleY(1.06);
+  }
+}
+
+@keyframes crossPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes haloFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8%);
+  }
+}
+
+@keyframes beamH {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%) scaleX(0.05);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-50%) scaleX(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50%) scaleX(1) scaleY(0.2);
+  }
+}
+
+@keyframes beamV {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scaleY(0.05);
+  }
+  30% {
+    opacity: 1;
+    transform: translateX(-50%) scaleY(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) scaleY(1) scaleX(0.2);
+  }
+}
+
+@keyframes ringBurst {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.15);
+  }
+  70% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+@keyframes glowPop {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.8);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2.4);
+  }
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -30%) scale(0.6);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -60%) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -170%) scale(1);
+  }
+}
+
+@keyframes wordPop {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.3) rotate(-6deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.08) rotate(2deg);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -55%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -75%) scale(0.95);
+  }
+}
+
+@keyframes bannerInOut {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  12% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.04);
+  }
+  20%,
+  82% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+}
+
+@keyframes panelFlash {
+  0% {
+    border-color: rgba(255, 207, 90, 0.9);
+    box-shadow:
+      0 0 0 2px rgba(255, 207, 90, 0.45),
+      0 0 30px rgba(255, 207, 90, 0.35);
+  }
+  100% {
+    border-color: var(--stroke);
+    box-shadow: var(--shadow-1);
+  }
+}
+
+@keyframes queueIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes newBadge {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 207, 90, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 5px rgba(255, 207, 90, 0);
+  }
+}
+
+@keyframes rpEnter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes rpLeave {
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes starPop {
+  0% {
+    transform: scale(0.2) rotate(-40deg);
+  }
+  70% {
+    transform: scale(1.25) rotate(8deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes badgeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Movimento reduzido (preferência do jogo ou do sistema) ---------- */
+body.reduced-motion *,
+body.reduced-motion *::before,
+body.reduced-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.05s !important;
+}
+
+body.reduced-motion .float-tile,
+body.reduced-motion .fx-beam,
+body.reduced-motion .fx-ring,
+body.reduced-motion .fx-glow {
+  display: none;
+}
+
+/* mantém textos flutuantes legíveis por um instante */
+body.reduced-motion .float-text {
+  animation: fadeOut 0.9s 0.3s ease forwards !important;
+  animation-duration: 0.9s !important;
+}
+
+body.reduced-motion .board-banner.show {
+  animation: none !important;
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-tile,
+  .logo-mark,
+  .loading-logo {
+    animation: none;
+  }
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#2a1257" />
+    <meta name="description" content="Match dos Santos — um jogo de combinar peças com os retratos de 30 santos. Combine. Descubra. Inspire-se." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Match dos Santos</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/game.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body data-current="loading">
+    <div class="app-bg" aria-hidden="true"></div>
+
+    <!-- Carregamento -->
+    <section class="screen screen-loading active" data-screen="loading" aria-label="Carregando">
+      <div class="loading-box">
+        <img class="loading-logo" src="assets/icons/logo-mark.svg" alt="" />
+        <h1 class="loading-title">Match dos Santos</h1>
+        <div class="loading-track"><span id="loading-bar"></span></div>
+        <p id="loading-label" class="loading-label">Preparando…</p>
+        <div id="loading-error" class="loading-error" hidden></div>
+        <noscript><p class="loading-error">Ative o JavaScript para jogar.</p></noscript>
+      </div>
+    </section>
+
+    <!-- Tela inicial -->
+    <section class="screen screen-home" data-screen="home" aria-label="Tela inicial" inert>
+      <div class="home-tiles" id="home-tiles" aria-hidden="true"></div>
+      <div class="home-content">
+        <div class="logo" role="img" aria-label="Match dos Santos">
+          <img class="logo-mark" src="assets/icons/logo-mark.svg" alt="" />
+          <div class="logo-words" aria-hidden="true">
+            <span class="logo-match">MATCH</span>
+            <span class="logo-dos">dos</span>
+            <span class="logo-santos">SANTOS</span>
+          </div>
+        </div>
+        <div class="home-match" id="home-match" aria-hidden="true"></div>
+        <p class="tagline">Combine. Descubra. Inspire-se.</p>
+
+        <nav class="home-menu" aria-label="Menu principal">
+          <button class="btn btn-primary btn-xl" id="btn-play" type="button" data-icon="play">
+            <span class="btn-stack"><span>JOGAR</span><small id="btn-play-sub">Comece pela fase 1</small></span>
+          </button>
+          <button class="btn btn-secondary btn-lg" id="btn-endless" type="button" data-icon="infinity"><span>MODO INFINITO</span></button>
+          <div class="home-row">
+            <button class="btn btn-ghost" id="btn-album" type="button" data-icon="album"><span>ÁLBUM DOS SANTOS</span></button>
+            <button class="btn btn-ghost" id="btn-settings" type="button" data-icon="settings"><span>CONFIGURAÇÕES</span></button>
+          </div>
+        </nav>
+
+        <div class="home-records" id="home-records" aria-label="Recordes pessoais"></div>
+      </div>
+    </section>
+
+    <!-- Mapa de fases -->
+    <section class="screen screen-levels" data-screen="levels" aria-label="Fases" inert></section>
+
+    <!-- Partida -->
+    <section class="screen screen-game" data-screen="game" aria-label="Partida" inert></section>
+
+    <!-- Álbum -->
+    <section class="screen screen-album" data-screen="album" aria-label="Álbum dos Santos" inert></section>
+    <section class="screen screen-saint" data-screen="saint" aria-label="Detalhes do santo" inert></section>
+
+    <!-- Configurações -->
+    <section class="screen screen-settings" data-screen="settings" aria-label="Configurações" inert></section>
+
+    <div id="modal-root"></div>
+    <div id="toast-root" class="toast-root" aria-live="polite"></div>
+    <canvas id="fx-canvas" class="fx-canvas" aria-hidden="true"></canvas>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
