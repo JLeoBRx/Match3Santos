@@ -1,0 +1,2859 @@
+{
+  "schema_version": "1.0",
+  "language": "pt-BR",
+  "project": "Match dos Santos",
+  "description": "Banco inicial de 300 reflexões para revisão editorial e futura utilização no jogo.",
+  "editorial_note": "Textos autorais de reflexão, não citações literais. Verificar dados biográficos e revisar linguagem pastoral antes da publicação. Em santos cuja tradição possui elementos historicamente incertos, isso foi indicado no próprio texto.",
+  "saints": {
+    "santo_agostinho": {
+      "saint_name": "Santo Agostinho de Hipona",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A inquietação do coração",
+          "theme": "Busca de Deus",
+          "reflection": "Agostinho procurou sentido em muitos caminhos até reconhecer que seu coração precisava de Deus. A busca sincera, mesmo quando começa confusa, pode abrir espaço para uma transformação profunda.",
+          "question": "O que tenho procurado para preencher o que falta em meu coração?",
+          "virtue": "Busca sincera",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A coragem de mudar",
+          "theme": "Conversão",
+          "reflection": "Sua conversão recorda que ninguém precisa ficar preso aos próprios erros. Reconhecer a verdade exige humildade, mas também inaugura uma vida nova.",
+          "question": "Que hábito ou atitude preciso começar a mudar?",
+          "virtue": "Conversão",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A verdade acima do orgulho",
+          "theme": "Humildade",
+          "reflection": "Agostinho aprendeu a reconhecer que não possuía todas as respostas. A humildade permite aprender, pedir ajuda e acolher uma verdade maior que nossas opiniões.",
+          "question": "Em que situação tenho dificuldade de admitir que posso estar errado?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A amizade que aproxima do bem",
+          "theme": "Amizade",
+          "reflection": "As relações marcaram profundamente a vida de Agostinho. Uma amizade verdadeira não alimenta apenas interesses: ajuda cada pessoa a crescer no bem e na busca da verdade.",
+          "question": "Minhas amizades me ajudam a ser uma pessoa melhor?",
+          "virtue": "Amizade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Pensar também é rezar",
+          "theme": "Fé e razão",
+          "reflection": "Agostinho uniu reflexão, estudo e fé. Fazer perguntas com honestidade não precisa afastar de Deus; pode aprofundar a compreensão e tornar a fé mais consciente.",
+          "question": "Que pergunta importante posso levar à oração e ao estudo?",
+          "virtue": "Sabedoria",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A graça que nos levanta",
+          "theme": "Misericórdia",
+          "reflection": "A experiência de Agostinho mostra que a mudança não depende apenas da força de vontade. A graça de Deus sustenta quem reconhece sua fragilidade e deseja recomeçar.",
+          "question": "Quando erro, procuro recomeçar ou desisto de mim mesmo?",
+          "virtue": "Confiança na graça",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "O tempo é um presente",
+          "theme": "Responsabilidade",
+          "reflection": "Refletindo sobre o tempo, Agostinho recorda que a vida acontece no presente. Não podemos refazer ontem nem controlar amanhã, mas podemos escolher bem o que fazemos hoje.",
+          "question": "Como posso usar melhor o dia que recebi?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Servir com inteligência e amor",
+          "theme": "Caridade",
+          "reflection": "Como pastor e bispo, Agostinho colocou seus dons a serviço da comunidade. Conhecimento e capacidade ganham sentido quando ajudam outras pessoas.",
+          "question": "Qual talento meu pode servir concretamente a alguém?",
+          "virtue": "Serviço",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A Palavra que ilumina",
+          "theme": "Escuta",
+          "reflection": "Agostinho encontrou na Escritura uma fonte de luz para sua vida. Ler com atenção, humildade e disposição para praticar transforma a leitura em encontro e compromisso.",
+          "question": "Que palavra do Evangelho posso colocar em prática hoje?",
+          "virtue": "Escuta",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Recomeçar todos os dias",
+          "theme": "Perseverança",
+          "reflection": "A conversão não é apenas um instante marcante: é um caminho cotidiano. Cada dia oferece a oportunidade de escolher novamente o amor, a verdade e o bem.",
+          "question": "Qual pequeno passo de conversão posso dar hoje?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santo_antonio_padua": {
+      "saint_name": "Santo Antônio de Pádua",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A Palavra que ganha vida",
+          "theme": "Evangelização",
+          "reflection": "Antônio ficou conhecido por sua pregação e profundo conhecimento da Escritura. Sua vida lembra que a Palavra de Deus deve iluminar não só o discurso, mas também as escolhas.",
+          "question": "Minhas atitudes confirmam aquilo que digo acreditar?",
+          "virtue": "Coerência",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Conhecimento a serviço",
+          "theme": "Sabedoria",
+          "reflection": "Seu estudo não foi busca de prestígio, mas preparação para servir. Aprender tem valor especial quando nos torna mais capazes de compreender, orientar e ajudar.",
+          "question": "Como posso usar o que sei para ajudar alguém?",
+          "virtue": "Sabedoria",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Atenção aos esquecidos",
+          "theme": "Justiça",
+          "reflection": "A tradição de sua pregação destaca a defesa dos pobres e a denúncia das injustiças. A fé se torna concreta quando percebemos quem está sendo deixado para trás.",
+          "question": "Quem perto de mim precisa ser ouvido ou defendido?",
+          "virtue": "Justiça",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Falar com mansidão",
+          "theme": "Mansidão",
+          "reflection": "A força de uma mensagem não depende de agressividade. Antônio inspira a comunicar convicções com clareza, respeito e caridade, sem humilhar quem pensa diferente.",
+          "question": "Consigo discordar sem ferir ou desprezar?",
+          "virtue": "Mansidão",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A simplicidade dos pequenos",
+          "theme": "Humildade",
+          "reflection": "Apesar de sua fama como pregador, Antônio é lembrado pela vida franciscana de simplicidade. O reconhecimento não precisa ocupar o lugar do serviço humilde.",
+          "question": "Tenho buscado mais aparecer ou fazer o bem?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Procurar o que se perdeu",
+          "theme": "Esperança",
+          "reflection": "A devoção popular associa Antônio às coisas perdidas. Podemos também pedir sua intercessão para reencontrar valores, esperança e caminhos que deixamos para trás.",
+          "question": "Que valor importante preciso recuperar em minha vida?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A fé que se torna cuidado",
+          "theme": "Caridade",
+          "reflection": "A devoção a Santo Antônio inspira gestos concretos de partilha. A oração não substitui a ajuda: ela pode despertar nossos olhos para necessidades reais.",
+          "question": "Que gesto de generosidade posso realizar nesta semana?",
+          "virtue": "Generosidade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Ensinar pelo exemplo",
+          "theme": "Testemunho",
+          "reflection": "Uma palavra convence mais quando encontra correspondência na vida de quem a pronuncia. O testemunho cotidiano pode anunciar o Evangelho sem grandes discursos.",
+          "question": "O que as pessoas aprendem sobre minha fé ao me observar?",
+          "virtue": "Autenticidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Acolher quem procura orientação",
+          "theme": "Acolhimento",
+          "reflection": "Antônio é lembrado como mestre e conselheiro. Escutar com paciência, sem julgamentos apressados, pode ser o primeiro passo para ajudar alguém a encontrar direção.",
+          "question": "Tenho oferecido escuta verdadeira a quem me procura?",
+          "virtue": "Acolhimento",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Confiança que se transforma em ação",
+          "theme": "Confiança",
+          "reflection": "Confiar em Deus não significa esperar passivamente. A confiança cristã fortalece para agir com coragem, buscar soluções e perseverar no bem.",
+          "question": "Qual atitude concreta minha confiança em Deus está me chamando a tomar?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "beata_sandra_sabattini": {
+      "saint_name": "Beata Sandra Sabattini",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A santidade no cotidiano",
+          "theme": "Santidade",
+          "reflection": "Sandra viveu sua fé na juventude, nos estudos, nas amizades e no serviço. Sua história recorda que a santidade não precisa esperar uma ocasião extraordinária: começa nas escolhas de cada dia.",
+          "question": "Em qual situação comum posso viver o amor de maneira extraordinária?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Ver Cristo em quem sofre",
+          "theme": "Compaixão",
+          "reflection": "Seu serviço junto a pessoas frágeis e marginalizadas revela um olhar que não reduz ninguém às suas dificuldades. Cada pessoa merece dignidade, presença e cuidado.",
+          "question": "Tenho enxergado as pessoas ou apenas seus problemas?",
+          "virtue": "Compaixão",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Juventude com propósito",
+          "theme": "Vocação",
+          "reflection": "Sandra mostra que ser jovem não é viver sem direção. É possível construir projetos, estudar, amar e discernir como colocar a própria vida a serviço de algo maior.",
+          "question": "Que propósito dá sentido às minhas escolhas?",
+          "virtue": "Disponibilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A alegria de servir",
+          "theme": "Serviço",
+          "reflection": "O serviço cristão não é busca de aplausos. É oferecer tempo e capacidades porque o outro importa. Pequenos gestos podem tornar mais leve a vida de alguém.",
+          "question": "A quem posso oferecer meu tempo sem esperar recompensa?",
+          "virtue": "Generosidade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Amar com atitudes",
+          "theme": "Caridade",
+          "reflection": "O amor se torna visível quando deixa de ser apenas sentimento e se transforma em presença, paciência e ajuda concreta. Sandra inspira uma caridade comprometida com pessoas reais.",
+          "question": "Qual necessidade concreta posso atender hoje?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Discernir antes de escolher",
+          "theme": "Discernimento",
+          "reflection": "Uma vida com propósito pede silêncio, oração e reflexão. Discernir é perguntar não apenas o que desejo, mas o que conduz ao amor e ao bem verdadeiro.",
+          "question": "Tenho reservado tempo para refletir antes de decisões importantes?",
+          "virtue": "Discernimento",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A dignidade não depende da condição",
+          "theme": "Dignidade",
+          "reflection": "O cuidado com pessoas vulneráveis recorda que o valor humano não depende de saúde, dinheiro, produtividade ou reconhecimento. Cada pessoa merece respeito integral.",
+          "question": "Trato todos com a mesma dignidade, inclusive quem não pode me oferecer nada?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Fé que participa do mundo",
+          "theme": "Compromisso",
+          "reflection": "A espiritualidade de Sandra não a afastou das necessidades sociais. A fé pode nos tornar mais atentos à realidade e mais comprometidos com a transformação do que é injusto.",
+          "question": "Que problema ao meu redor não deveria mais ser ignorado por mim?",
+          "virtue": "Compromisso",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A esperança nas pequenas coisas",
+          "theme": "Esperança",
+          "reflection": "A esperança cristã não elimina dificuldades, mas permite atravessá-las sem perder o sentido. Um gesto de cuidado, uma conversa e uma oração podem renovar o ânimo.",
+          "question": "O que pode ser hoje um pequeno sinal de esperança para alguém?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Uma vida oferecida por amor",
+          "theme": "Doação",
+          "reflection": "Sandra recorda que a grandeza de uma vida não se mede apenas por sua duração ou visibilidade, mas pela qualidade do amor que nela foi oferecido.",
+          "question": "Como desejo que o amor apareça na maneira como vivo?",
+          "virtue": "Doação",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_carlo_acutis": {
+      "saint_name": "São Carlo Acutis",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A santidade no cotidiano",
+          "theme": "Santidade",
+          "reflection": "Carlo viveu a fé em meio à escola, às amizades, à família e à tecnologia. Sua história mostra que a santidade pode florescer no mundo em que vivemos, quando Cristo orienta nossas escolhas.",
+          "question": "Como posso aproximar minha rotina de Deus?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A internet a serviço do bem",
+          "theme": "Tecnologia",
+          "reflection": "Carlo utilizou seus conhecimentos digitais para divulgar conteúdos sobre a fé. A tecnologia é uma ferramenta: pode espalhar conhecimento e esperança ou consumir nosso tempo sem propósito.",
+          "question": "O que tenho compartilhado e consumido na internet aproxima as pessoas do bem?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A Eucaristia como centro",
+          "theme": "Eucaristia",
+          "reflection": "A devoção de Carlo à Eucaristia revela a importância de alimentar a amizade com Jesus. A fé cresce quando reservamos tempo para a oração e participamos da vida sacramental.",
+          "question": "Que lugar a Eucaristia ocupa em minha semana?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Ser original diante de Deus",
+          "theme": "Identidade",
+          "reflection": "Carlo gostava de dizer que todos nascem originais, mas muitos terminam como cópias. Sua mensagem convida a não viver apenas para imitar tendências ou receber aprovação.",
+          "question": "Tenho coragem de viver meus valores mesmo quando são diferentes dos da maioria?",
+          "virtue": "Autenticidade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A amizade que faz crescer",
+          "theme": "Amizade",
+          "reflection": "A vida de Carlo incluiu amizades e atenção às pessoas ao redor. Ser amigo é desejar o bem do outro, acolher diferenças e ajudar sem transformar a relação em interesse.",
+          "question": "Sou uma presença que fortalece meus amigos?",
+          "virtue": "Amizade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Generosidade sem espetáculo",
+          "theme": "Caridade",
+          "reflection": "Carlo demonstrou atenção a pessoas pobres e necessitadas. A caridade verdadeira não precisa de publicidade: começa quando percebemos alguém e agimos com respeito.",
+          "question": "Faço o bem mesmo quando ninguém está olhando?",
+          "virtue": "Generosidade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Talentos colocados em missão",
+          "theme": "Vocação",
+          "reflection": "Seus conhecimentos de informática foram colocados a serviço de sua fé. Nossos talentos não são apenas vantagens pessoais; podem se tornar instrumentos para servir.",
+          "question": "Qual habilidade minha posso colocar a serviço de outras pessoas?",
+          "virtue": "Disponibilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Liberdade diante das telas",
+          "theme": "Equilíbrio",
+          "reflection": "Usar tecnologia com sabedoria exige escolher quando conectar e quando estar presente. Não somos obrigados a seguir cada notificação ou tendência.",
+          "question": "Tenho controlado meu tempo de tela ou deixado que ele me controle?",
+          "virtue": "Temperança",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Coragem de testemunhar",
+          "theme": "Coragem",
+          "reflection": "Carlo não escondia sua fé para ser aceito. Seu exemplo convida a testemunhar com naturalidade, respeito e firmeza, sem arrogância nem vergonha.",
+          "question": "Em que ambiente posso demonstrar minha fé com mais autenticidade?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "A vida vale pelo amor",
+          "theme": "Esperança",
+          "reflection": "A juventude e a breve vida de Carlo recordam que cada dia pode ser fecundo. Não precisamos esperar o futuro para começar a amar, servir e buscar a Deus.",
+          "question": "O que posso fazer hoje para que minha vida produza mais amor?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "beata_chiara_badano": {
+      "saint_name": "Beata Chiara Luce Badano",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "Uma luz que não se apaga",
+          "theme": "Esperança",
+          "reflection": "Chiara Badano recebeu o apelido Luce por sua maneira luminosa de viver a fé. Mesmo diante da doença, procurou transmitir esperança e amor, sem negar a dificuldade que enfrentava.",
+          "question": "Como posso levar luz a alguém que atravessa um momento difícil?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A alegria que nasce do amor",
+          "theme": "Alegria",
+          "reflection": "Sua alegria não dependia de uma vida sem problemas. Ela recorda que a alegria cristã pode nascer de relações verdadeiras, confiança em Deus e sentido mesmo em meio à dor.",
+          "question": "Minha alegria depende apenas de tudo acontecer como eu quero?",
+          "virtue": "Alegria",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Coragem diante da fragilidade",
+          "theme": "Coragem",
+          "reflection": "Ao enfrentar uma doença grave, Chiara viveu um caminho exigente de coragem. Sua história não romantiza o sofrimento: mostra a possibilidade de buscar apoio e conservar a esperança.",
+          "question": "Como posso acolher minha fragilidade sem perder a confiança?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Amar sem escolher apenas o fácil",
+          "theme": "Caridade",
+          "reflection": "Chiara procurou continuar amando as pessoas ao seu redor em circunstâncias difíceis. O amor amadurece quando permanece atento ao outro, mesmo quando exige esforço.",
+          "question": "Quem precisa de minha paciência neste momento?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A fé que acompanha a dor",
+          "theme": "Fé",
+          "reflection": "A fé não significa ausência de lágrimas ou perguntas. Chiara inspira a levar a Deus também o medo, a tristeza e a incerteza, confiando que não estamos sozinhos.",
+          "question": "Consigo apresentar a Deus minhas dores com sinceridade?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A amizade com Cristo",
+          "theme": "Oração",
+          "reflection": "Sua relação com Jesus sustentou sua caminhada. A oração pode ser uma amizade cultivada em palavras simples, silêncio e entrega, especialmente quando faltam respostas.",
+          "question": "Tenho conversado com Deus de maneira sincera?",
+          "virtue": "Intimidade com Deus",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Viver cada dia com sentido",
+          "theme": "Presença",
+          "reflection": "A experiência de Chiara convida a não desperdiçar o presente. Mesmo em períodos limitados, é possível oferecer carinho, escuta e presença a quem está perto.",
+          "question": "A quem posso dedicar atenção verdadeira hoje?",
+          "virtue": "Presença",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A beleza de ser autêntico",
+          "theme": "Autenticidade",
+          "reflection": "Chiara viveu a fé de modo pessoal e coerente, sem transformar a espiritualidade em aparência. Ser autêntico é permitir que nossas escolhas expressem aquilo em que acreditamos.",
+          "question": "Existe distância entre a pessoa que pareço ser e a pessoa que sou?",
+          "virtue": "Autenticidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A família como lugar de amor",
+          "theme": "Família",
+          "reflection": "Sua caminhada foi acompanhada pela família e por amigos. O cuidado recebido e oferecido recorda que ninguém precisa enfrentar tudo isoladamente.",
+          "question": "Como posso fortalecer os vínculos com minha família?",
+          "virtue": "Gratidão",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Uma esperança que permanece",
+          "theme": "Vida eterna",
+          "reflection": "A confiança cristã de Chiara apontava para uma esperança que ultrapassa a vida terrena. Essa esperança não diminui o valor do presente: torna cada gesto de amor ainda mais precioso.",
+          "question": "Que atitude de amor quero deixar como marca da minha passagem?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "chiara_corbella_petrillo": {
+      "saint_name": "Chiara Corbella Petrillo",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "O amor que se entrega",
+          "theme": "Doação",
+          "reflection": "A história de Chiara Corbella Petrillo é marcada por escolhas difíceis, amor conjugal e confiança em Deus. Seu testemunho convida a refletir sobre a entrega, sem transformar a dor em obrigação ou julgamento.",
+          "question": "Como posso amar de forma concreta e responsável nas situações que vivo?",
+          "virtue": "Doação",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A dignidade de cada vida",
+          "theme": "Vida",
+          "reflection": "A experiência de sua família recorda a dignidade de cada pessoa, especialmente quando frágil. O valor humano não depende de saúde, idade, autonomia ou expectativa de vida.",
+          "question": "Como minhas atitudes defendem e respeitam a dignidade de todos?",
+          "virtue": "Respeito à vida",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "O amor dentro da família",
+          "theme": "Família",
+          "reflection": "Chiara e Enrico viveram a experiência de construir uma família atravessada por alegrias e sofrimentos. O amor familiar pede diálogo, cuidado e presença cotidiana.",
+          "question": "Tenho demonstrado às pessoas da minha família que elas são importantes?",
+          "virtue": "Amor familiar",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A esperança em meio à incerteza",
+          "theme": "Esperança",
+          "reflection": "Sua trajetória lembra que a esperança cristã pode acompanhar momentos sem soluções simples. Esperar não é negar a realidade, mas buscar sentido, apoio e força para atravessá-la.",
+          "question": "Onde preciso de apoio para enfrentar uma incerteza?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A coragem de pedir ajuda",
+          "theme": "Comunidade",
+          "reflection": "Nenhuma pessoa precisa carregar sozinha o peso de uma situação difícil. A comunidade, os amigos e profissionais de cuidado podem ser instrumentos de apoio e proteção.",
+          "question": "Tenho permitido que pessoas de confiança me ajudem?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A fé sem respostas fáceis",
+          "theme": "Fé",
+          "reflection": "A fé não oferece explicações rápidas para todo sofrimento. Ela pode sustentar a pessoa enquanto ela chora, pergunta, discerne e procura ajuda.",
+          "question": "Consigo permanecer aberto a Deus mesmo quando não compreendo o que acontece?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Cuidar sem idealizar a dor",
+          "theme": "Compaixão",
+          "reflection": "A história de Chiara deve despertar respeito por quem sofre, não comparações nem cobranças. A compaixão acompanha, escuta e oferece ajuda concreta, sem impor modelos de heroísmo.",
+          "question": "Tenho acolhido a dor dos outros sem julgá-los?",
+          "virtue": "Compaixão",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "O matrimônio como caminho de cuidado",
+          "theme": "Aliança",
+          "reflection": "O amor conjugal se constrói na fidelidade, no diálogo e na responsabilidade compartilhada. Amar é caminhar junto, respeitando a dignidade e a liberdade do outro.",
+          "question": "Como posso tornar meus relacionamentos mais responsáveis e cuidadosos?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A presença nos momentos decisivos",
+          "theme": "Presença",
+          "reflection": "Em momentos difíceis, a presença amorosa pode valer mais que discursos. Escutar, acompanhar uma consulta ou simplesmente permanecer ao lado de alguém são gestos significativos.",
+          "question": "Quem precisa que eu esteja presente, de verdade?",
+          "virtue": "Presença",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Viver com amor no hoje",
+          "theme": "Gratidão",
+          "reflection": "A vida de Chiara convida a reconhecer o valor do tempo recebido e das pessoas que caminham conosco. O presente pode ser vivido com gratidão e responsabilidade.",
+          "question": "Que pessoa ou oportunidade posso valorizar mais hoje?",
+          "virtue": "Gratidão",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_clara_assis": {
+      "saint_name": "Santa Clara de Assis",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A liberdade de escolher o essencial",
+          "theme": "Desapego",
+          "reflection": "Clara deixou uma vida de privilégios para seguir o caminho de pobreza evangélica. Sua decisão recorda que a liberdade cresce quando não somos dominados pelo acúmulo e pela aparência.",
+          "question": "O que tem ocupado espaço demais em minha vida?",
+          "virtue": "Desapego",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A coragem de seguir a vocação",
+          "theme": "Coragem",
+          "reflection": "Clara enfrentou pressões para permanecer fiel ao caminho que discerniu. Sua história convida a buscar a vontade de Deus com coragem, prudência e responsabilidade.",
+          "question": "Que escolha boa exige coragem de minha parte?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A riqueza da simplicidade",
+          "theme": "Simplicidade",
+          "reflection": "A simplicidade franciscana de Clara não era falta de valor, mas liberdade interior. Uma vida menos presa ao supérfluo pode abrir mais espaço para Deus e para os outros.",
+          "question": "O que posso simplificar para viver com mais liberdade?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A força da oração",
+          "theme": "Oração",
+          "reflection": "Clara cultivou uma vida profundamente contemplativa. A oração não é fuga do mundo: pode fortalecer o coração para amar, discernir e agir com serenidade.",
+          "question": "Tenho reservado um momento de silêncio para Deus?",
+          "virtue": "Contemplação",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Fraternidade que acolhe",
+          "theme": "Comunidade",
+          "reflection": "Clara viveu em comunidade com suas irmãs. A fraternidade exige paciência, escuta e disposição para construir algo em conjunto, respeitando a singularidade de cada pessoa.",
+          "question": "Como posso contribuir para a união do grupo de que faço parte?",
+          "virtue": "Fraternidade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Firmeza sem violência",
+          "theme": "Firmeza",
+          "reflection": "Clara é lembrada por sua firmeza diante de ameaças e dificuldades. A firmeza cristã não precisa ser agressiva: pode unir convicção, serenidade e confiança.",
+          "question": "Consigo defender meus valores sem perder o respeito pelos outros?",
+          "virtue": "Firmeza",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Contemplar para amar melhor",
+          "theme": "Contemplação",
+          "reflection": "A vida contemplativa de Clara ensina a olhar profundamente para Cristo. Quem aprende a contemplar pode perceber melhor a dignidade das pessoas e as necessidades ao redor.",
+          "question": "O que muda em meu olhar quando faço silêncio diante de Deus?",
+          "virtue": "Contemplação",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A fidelidade nas pequenas coisas",
+          "theme": "Fidelidade",
+          "reflection": "A perseverança de Clara foi construída em uma vida diária de oração e serviço. Grandes decisões precisam ser sustentadas por pequenas fidelidades repetidas.",
+          "question": "Qual compromisso simples preciso retomar?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A alegria de pertencer",
+          "theme": "Comunidade",
+          "reflection": "A vida com as irmãs mostra que a vocação também se vive em comunhão. Pertencer não é apagar a própria identidade, mas oferecer dons e acolher os dons alheios.",
+          "question": "Tenho valorizado as pessoas com quem caminho?",
+          "virtue": "Comunhão",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Cristo como centro",
+          "theme": "Cristocentrismo",
+          "reflection": "Clara organizou sua vida em torno de Cristo pobre e humilde. Quando o essencial ocupa o centro, as outras escolhas podem encontrar direção e equilíbrio.",
+          "question": "O que está realmente no centro das minhas decisões?",
+          "virtue": "Amor a Cristo",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_francisco_assis": {
+      "saint_name": "São Francisco de Assis",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A alegria da simplicidade",
+          "theme": "Simplicidade",
+          "reflection": "Francisco escolheu uma vida simples para seguir Jesus. Sua história convida a descobrir que a felicidade não depende de possuir muito, mas de viver com liberdade e gratidão.",
+          "question": "O que posso deixar de acumular para viver com mais leveza?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Irmãos de toda a criação",
+          "theme": "Criação",
+          "reflection": "Francisco contemplava a criação como obra de Deus e chamava as criaturas de irmãs. Cuidar da natureza é reconhecer que o mundo não é apenas recurso para consumo.",
+          "question": "Que atitude concreta posso tomar para cuidar da criação?",
+          "virtue": "Cuidado",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A paz começa em mim",
+          "theme": "Paz",
+          "reflection": "A tradição franciscana recorda o chamado a ser instrumento de paz. Antes de exigir mudanças dos outros, podemos escolher palavras, gestos e atitudes que interrompam conflitos.",
+          "question": "Em qual relação posso dar o primeiro passo em direção à paz?",
+          "virtue": "Pacificação",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Servir os pequenos",
+          "theme": "Humildade",
+          "reflection": "Francisco aproximou-se de pessoas pobres e marginalizadas. Ele recorda que ninguém deve ser tratado como invisível e que servir exige encontrar o outro com respeito.",
+          "question": "Quem costuma ser ignorado e merece minha atenção?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Transformar o coração",
+          "theme": "Conversão",
+          "reflection": "O encontro de Francisco com pessoas que antes lhe causavam repulsa marcou sua conversão. Às vezes, mudar de vida começa quando aprendemos a olhar o outro de maneira nova.",
+          "question": "Que preconceito preciso enfrentar em mim?",
+          "virtue": "Conversão",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A fraternidade universal",
+          "theme": "Fraternidade",
+          "reflection": "Francisco chamava as pessoas de irmãos e irmãs. A fraternidade nos desafia a ultrapassar grupos e preferências para reconhecer a dignidade de todos.",
+          "question": "Tenho tratado como irmão também quem é diferente de mim?",
+          "virtue": "Fraternidade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A coragem de recomeçar",
+          "theme": "Esperança",
+          "reflection": "Francisco não começou com tudo resolvido. Seu caminho foi feito de discernimento, erros, escolhas e perseverança. Deus pode transformar uma história quando nos abrimos à mudança.",
+          "question": "Que recomeço estou adiando?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A oração que conduz ao serviço",
+          "theme": "Oração",
+          "reflection": "A oração ocupava lugar central na vida de Francisco, mas sua espiritualidade também o levava ao encontro das pessoas. Rezar pode nos tornar mais disponíveis para servir.",
+          "question": "Minha oração está transformando minha maneira de tratar os outros?",
+          "virtue": "Oração",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A verdadeira riqueza",
+          "theme": "Desapego",
+          "reflection": "Francisco escolheu a pobreza evangélica como liberdade e confiança em Deus. O desapego não despreza os bens, mas impede que eles se tornem donos do coração.",
+          "question": "Tenho usado meus recursos para construir o bem comum?",
+          "virtue": "Desapego",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Ser instrumento de reconciliação",
+          "theme": "Reconciliação",
+          "reflection": "O testemunho franciscano inspira a reparar relações e construir pontes. A reconciliação pode começar com um pedido de perdão sincero e uma disposição real de mudar.",
+          "question": "Com quem preciso buscar uma conversa honesta?",
+          "virtue": "Reconciliação",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_gemma_galgani": {
+      "saint_name": "Santa Gemma Galgani",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A oração perseverante",
+          "theme": "Oração",
+          "reflection": "Gemma Galgani cultivou uma vida intensa de oração. Seu exemplo convida a permanecer diante de Deus com sinceridade, levando alegrias, dúvidas e dificuldades sem transformar a oração em obrigação vazia.",
+          "question": "Tenho perseverado na oração também nos dias difíceis?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Amar com humildade",
+          "theme": "Humildade",
+          "reflection": "A espiritualidade de Gemma foi marcada pela busca de união com Cristo. A humildade nos ajuda a reconhecer limites, acolher orientação e servir sem procurar superioridade.",
+          "question": "Em que situação preciso deixar o orgulho de lado?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A fé no sofrimento",
+          "theme": "Confiança",
+          "reflection": "A história de Gemma inclui enfermidades e experiências dolorosas. Seu testemunho deve ser acolhido com sensibilidade: sofrer não é desejável nem sinal de falta de fé, e buscar cuidado é importante.",
+          "question": "Quando sofro, consigo procurar apoio e também confiar em Deus?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A devoção que transforma",
+          "theme": "Devoção",
+          "reflection": "A devoção cristã ganha sentido quando aproxima de Jesus e inspira uma vida mais amorosa. Práticas religiosas devem alimentar a caridade, não substituir o cuidado com o próximo.",
+          "question": "Minha devoção está me tornando mais paciente e generoso?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A força da simplicidade",
+          "theme": "Simplicidade",
+          "reflection": "Gemma viveu uma vida sem grandes posições sociais. Sua história recorda que a profundidade espiritual não depende de fama, poder ou prestígio.",
+          "question": "Tenho valorizado o bem silencioso que posso fazer?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A confiança filial",
+          "theme": "Confiança",
+          "reflection": "A espiritualidade de Gemma expressava confiança em Deus. A confiança filial não elimina perguntas, mas permite entregar preocupações e continuar fazendo o que está ao nosso alcance.",
+          "question": "Que preocupação posso colocar hoje nas mãos de Deus?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Cuidar do coração",
+          "theme": "Pureza de intenção",
+          "reflection": "A busca de uma vida interior coerente convida a examinar intenções. Não basta parecer bom: é preciso cultivar pensamentos e desejos que respeitem a dignidade própria e alheia.",
+          "question": "Quais intenções estão por trás das minhas escolhas?",
+          "virtue": "Pureza de intenção",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A fidelidade escondida",
+          "theme": "Fidelidade",
+          "reflection": "Muitas escolhas importantes acontecem longe dos olhares. A fidelidade cotidiana, quando ninguém aplaude, forma um coração capaz de amar com constância.",
+          "question": "Que compromisso posso cumprir com mais fidelidade?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A cruz não é abandono",
+          "theme": "Esperança",
+          "reflection": "A fé cristã contempla a cruz junto da esperança da ressurreição. Nos momentos de dor, podemos buscar companhia, cuidado e sentido, lembrando que Deus não nos abandona.",
+          "question": "Quem pode caminhar comigo quando a vida pesa?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Amar sem buscar reconhecimento",
+          "theme": "Caridade",
+          "reflection": "A vida espiritual não deve se transformar em competição por admiração. O amor verdadeiro procura o bem do outro, mesmo quando o gesto permanece desconhecido.",
+          "question": "Qual bem posso fazer discretamente hoje?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_joana_darc": {
+      "saint_name": "Santa Joana d'Arc",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "Coragem para cumprir a missão",
+          "theme": "Coragem",
+          "reflection": "Joana d'Arc é lembrada por sua coragem em circunstâncias extraordinárias. Seu testemunho convida a enfrentar responsabilidades com discernimento, sem confundir coragem com imprudência.",
+          "question": "Que responsabilidade exige coragem e prudência de mim?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Escutar antes de agir",
+          "theme": "Discernimento",
+          "reflection": "Joana dizia responder a um chamado espiritual. Sua história nos lembra da importância de discernir com seriedade, buscar orientação e examinar nossas motivações antes de decisões importantes.",
+          "question": "A quem posso recorrer para discernir melhor uma decisão?",
+          "virtue": "Discernimento",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Fidelidade em tempos difíceis",
+          "theme": "Fidelidade",
+          "reflection": "Mesmo enfrentando oposição e julgamento, Joana permaneceu fiel àquilo que acreditava ter discernido. A fidelidade pode exigir firmeza, mas também abertura à verdade e à orientação responsável.",
+          "question": "Como posso permanecer fiel ao bem sem me fechar ao diálogo?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A dignidade das mulheres",
+          "theme": "Dignidade",
+          "reflection": "A trajetória de Joana rompeu expectativas de seu tempo e recorda a capacidade das mulheres de assumir responsabilidades e participar da vida pública.",
+          "question": "Tenho reconhecido e respeitado os dons e a voz das mulheres ao meu redor?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Não deixar o medo decidir",
+          "theme": "Confiança",
+          "reflection": "A coragem não significa ausência de medo. Significa não permitir que o medo seja o único guia, procurando apoio e escolhendo o que é justo mesmo em situações difíceis.",
+          "question": "Que passo correto tenho evitado por medo?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A verdade diante do poder",
+          "theme": "Justiça",
+          "reflection": "O processo que levou Joana à condenação foi marcado por injustiças. Sua memória convida a não aceitar acusações sem exame e a defender processos justos para todos.",
+          "question": "Tenho verificado os fatos antes de julgar alguém?",
+          "virtue": "Justiça",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Humildade na missão",
+          "theme": "Humildade",
+          "reflection": "Uma missão importante não torna ninguém superior. A humildade permite reconhecer que os dons recebidos devem servir à comunidade e permanecer submetidos à verdade.",
+          "question": "Uso minhas capacidades para servir ou para me colocar acima dos outros?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Esperança em meio à provação",
+          "theme": "Esperança",
+          "reflection": "A vida de Joana passou por conflitos, prisão e morte. Sua memória recorda que a esperança pode permanecer mesmo quando não controlamos os acontecimentos.",
+          "question": "O que me ajuda a não desistir do bem em tempos difíceis?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A fé pede responsabilidade",
+          "theme": "Responsabilidade",
+          "reflection": "A fé não dispensa reflexão nem cuidado com as consequências. Decisões importantes precisam ser tomadas com consciência, prudência e respeito pela vida.",
+          "question": "Tenho considerado as consequências das minhas escolhas para outras pessoas?",
+          "virtue": "Prudência",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Uma voz que não se cala diante da injustiça",
+          "theme": "Justiça",
+          "reflection": "Joana tornou-se símbolo de coragem diante de estruturas poderosas. Seu exemplo inspira a defender quem é tratado injustamente, sem recorrer ao ódio ou à violência.",
+          "question": "Como posso defender alguém de forma justa e respeitosa?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_joao_cruz": {
+      "saint_name": "São João da Cruz",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A noite não é o fim",
+          "theme": "Esperança",
+          "reflection": "João da Cruz escreveu sobre a noite escura como caminho de purificação e amadurecimento espiritual. A aridez não significa necessariamente abandono: pode ser vivida com paciência e acompanhamento.",
+          "question": "Como posso atravessar um período de secura sem abandonar o bem?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Silêncio para escutar",
+          "theme": "Silêncio",
+          "reflection": "Sua espiritualidade valoriza o recolhimento e o silêncio. Em uma rotina cheia de ruídos, criar espaço interior ajuda a reconhecer o que realmente importa.",
+          "question": "Quanto tempo do meu dia é ocupado por silêncio verdadeiro?",
+          "virtue": "Recolhimento",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Amar mais do que possuir",
+          "theme": "Desapego",
+          "reflection": "João ensina a não transformar desejos e posses em centro da vida. O desapego abre espaço para amar sem controlar e para receber com gratidão.",
+          "question": "O que tenho dificuldade de soltar ou de compartilhar?",
+          "virtue": "Desapego",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A união com Deus",
+          "theme": "Oração",
+          "reflection": "A mística de João da Cruz descreve uma busca profunda de união com Deus. A oração pode amadurecer de palavras repetidas para uma relação de amor e entrega.",
+          "question": "Minha oração é também um encontro de amor ou apenas uma lista de pedidos?",
+          "virtue": "União com Deus",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A paciência no caminho",
+          "theme": "Perseverança",
+          "reflection": "O crescimento espiritual não acontece sempre de maneira rápida. João recorda que é preciso caminhar com paciência, aceitar etapas e não medir a vida interior por emoções passageiras.",
+          "question": "Tenho respeitado meu processo de amadurecimento?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "O amor como critério",
+          "theme": "Caridade",
+          "reflection": "A experiência mística precisa produzir amor. Uma vida de oração que não aumenta a caridade perde de vista o fruto mais importante da união com Deus.",
+          "question": "Minha relação com Deus está melhorando minha relação com as pessoas?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Liberdade interior",
+          "theme": "Liberdade",
+          "reflection": "O desapego espiritual não é desprezo pelas pessoas ou pela vida. É liberdade diante daquilo que nos domina, para amar com mais generosidade e menos egoísmo.",
+          "question": "Que dependência ou hábito tem diminuído minha liberdade?",
+          "virtue": "Liberdade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A humildade de aprender",
+          "theme": "Humildade",
+          "reflection": "João viveu incompreensões e dificuldades dentro da própria comunidade. A humildade ajuda a atravessar conflitos sem alimentar ressentimento e a buscar orientação com sinceridade.",
+          "question": "Como reajo quando sou incompreendido ou corrigido?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A beleza que aponta para Deus",
+          "theme": "Contemplação",
+          "reflection": "Sua poesia espiritual utiliza imagens de beleza e amor para falar do encontro com Deus. A contemplação nos ensina a olhar além da superfície e agradecer pelo bem recebido.",
+          "question": "Que beleza simples da criação posso contemplar hoje?",
+          "virtue": "Contemplação",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Caminhar com firmeza e ternura",
+          "theme": "Equilíbrio",
+          "reflection": "A vida espiritual exige determinação, mas não dureza consigo mesmo ou com os outros. O caminho de Deus pode ser vivido com firmeza, paciência e misericórdia.",
+          "question": "Tenho unido exigência pessoal e compaixão?",
+          "virtue": "Equilíbrio",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_john_henry_newman": {
+      "saint_name": "São John Henry Newman",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A luz para o próximo passo",
+          "theme": "Discernimento",
+          "reflection": "Newman escreveu sobre ser guiado pela luz de Deus, um passo de cada vez. Nem sempre enxergamos o caminho inteiro; podemos buscar clareza suficiente para a próxima decisão fiel.",
+          "question": "Qual é o próximo passo correto que consigo dar hoje?",
+          "virtue": "Discernimento",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A consciência bem formada",
+          "theme": "Consciência",
+          "reflection": "Newman destacou a importância da consciência, que não é simples preferência pessoal. Ela precisa ser formada pela verdade, pela reflexão e pela responsabilidade diante de Deus e dos outros.",
+          "question": "Tenho procurado formar minha consciência ou apenas justificar minhas vontades?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A coragem de seguir a verdade",
+          "theme": "Verdade",
+          "reflection": "Sua trajetória intelectual e religiosa incluiu mudanças difíceis. Buscar a verdade exige honestidade para rever ideias e coragem para aceitar consequências.",
+          "question": "Que opinião preciso examinar com mais abertura e honestidade?",
+          "virtue": "Honestidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A fé que pensa",
+          "theme": "Fé e razão",
+          "reflection": "Newman mostrou que fé e inteligência podem dialogar profundamente. Estudar, perguntar e refletir com seriedade pode fortalecer uma fé madura, capaz de enfrentar dúvidas.",
+          "question": "Que tema da fé gostaria de compreender melhor?",
+          "virtue": "Sabedoria",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A conversão como caminho",
+          "theme": "Conversão",
+          "reflection": "A passagem de Newman à Igreja Católica foi fruto de longo discernimento. Grandes decisões podem amadurecer ao longo do tempo, por meio de estudo, oração e acompanhamento.",
+          "question": "Tenho dado tempo e seriedade às decisões que mudam minha vida?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A amizade intelectual",
+          "theme": "Comunidade",
+          "reflection": "Newman valorizava a formação e o diálogo. Aprender com outras pessoas exige escuta, respeito e disposição para corrigir o próprio pensamento.",
+          "question": "Tenho escutado ideias diferentes sem preparar imediatamente uma resposta?",
+          "virtue": "Escuta",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A educação que transforma",
+          "theme": "Educação",
+          "reflection": "Para Newman, a educação deveria ampliar a compreensão e formar a pessoa. Aprender não é apenas acumular informações, mas desenvolver responsabilidade e capacidade de julgar.",
+          "question": "O que estou aprendendo tem transformado minhas atitudes?",
+          "virtue": "Formação",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A fidelidade no cotidiano",
+          "theme": "Fidelidade",
+          "reflection": "A busca da verdade se confirma nas escolhas comuns. Não basta defender princípios em teoria: é preciso agir com honestidade, justiça e caridade no dia a dia.",
+          "question": "Em qual atitude cotidiana posso ser mais coerente?",
+          "virtue": "Coerência",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A humildade diante do mistério",
+          "theme": "Humildade",
+          "reflection": "A inteligência humana é valiosa, mas limitada. Reconhecer o mistério não é abandonar a razão; é admitir que a realidade é maior do que nosso controle.",
+          "question": "Consigo reconhecer meus limites sem deixar de buscar respostas?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Ser presença para os outros",
+          "theme": "Caridade",
+          "reflection": "O conhecimento cristão deve conduzir ao amor. A pessoa bem formada não usa sua inteligência para humilhar, mas para compreender melhor e contribuir com o bem comum.",
+          "question": "Como posso usar meu conhecimento para construir, e não dividir?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_padre_pio": {
+      "saint_name": "São Padre Pio de Pietrelcina",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A oração perseverante",
+          "theme": "Oração",
+          "reflection": "Padre Pio dedicou grande parte de sua vida à oração e ao ministério sacerdotal. Seu exemplo convida a reservar tempo para Deus com fidelidade, mesmo quando a rotina é exigente.",
+          "question": "Qual horário posso reservar com constância para a oração?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A reconciliação começa pela verdade",
+          "theme": "Reconciliação",
+          "reflection": "Seu ministério no confessionário recorda a importância de reconhecer os erros e buscar reconciliação. A sinceridade diante de Deus abre espaço para mudança e misericórdia.",
+          "question": "Existe algo que preciso reconhecer e corrigir?",
+          "virtue": "Arrependimento",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Confiar sem abandonar a responsabilidade",
+          "theme": "Confiança",
+          "reflection": "A confiança em Deus não elimina o esforço humano. Ela ajuda a enfrentar dificuldades, procurar os meios necessários e não permitir que a ansiedade governe todas as decisões.",
+          "question": "Que preocupação posso entregar a Deus enquanto faço minha parte?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "O valor da Eucaristia",
+          "theme": "Eucaristia",
+          "reflection": "Padre Pio tinha profunda devoção à celebração eucarística. A Eucaristia convida a receber Cristo e a levar para a vida o amor que se celebra no altar.",
+          "question": "Como a participação na Missa pode transformar minha semana?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A paciência nas provações",
+          "theme": "Paciência",
+          "reflection": "Sua vida incluiu enfermidades, suspeitas e provações. A paciência cristã não é passividade diante de abusos: é força para perseverar no bem e buscar ajuda adequada.",
+          "question": "Como posso reagir com mais serenidade diante de uma dificuldade?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A caridade além das palavras",
+          "theme": "Caridade",
+          "reflection": "Padre Pio apoiou iniciativas de cuidado aos doentes, entre elas a Casa Alívio do Sofrimento. A espiritualidade precisa se traduzir em estruturas e gestos que protejam a vida.",
+          "question": "Que ação concreta pode aliviar o sofrimento de alguém?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A humildade no serviço",
+          "theme": "Humildade",
+          "reflection": "O ministério sacerdotal exige colocar-se a serviço, não buscar domínio. A humildade permite reconhecer que a missão é maior que o prestígio pessoal.",
+          "question": "Tenho buscado servir ou ser reconhecido?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A confiança na misericórdia",
+          "theme": "Misericórdia",
+          "reflection": "A experiência do sacramento da reconciliação recorda que a misericórdia de Deus chama a uma vida nova. Não devemos confundir culpa com desespero.",
+          "question": "Consigo pedir perdão e também aceitar a possibilidade de recomeçar?",
+          "virtue": "Misericórdia",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Levar a cruz com esperança",
+          "theme": "Esperança",
+          "reflection": "A tradição espiritual de Padre Pio enfatiza a união com Cristo nas dificuldades. Isso não significa procurar sofrimento, mas encontrar apoio e esperança quando ele chega.",
+          "question": "Que pessoa pode me ajudar a atravessar uma provação?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "A fé que sustenta o próximo",
+          "theme": "Acompanhamento",
+          "reflection": "Muitas pessoas procuravam Padre Pio em busca de orientação e oração. Podemos oferecer apoio sem pretender resolver tudo: escutar e caminhar junto já é uma forma de amor.",
+          "question": "Quem precisa de uma palavra de encorajamento ou de uma escuta?",
+          "virtue": "Acompanhamento",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_rita_cassia": {
+      "saint_name": "Santa Rita de Cássia",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A paz dentro de casa",
+          "theme": "Paz familiar",
+          "reflection": "Rita viveu conflitos familiares e dificuldades conjugais. Sua história inspira a buscar caminhos de paz, mas nunca exige que alguém permaneça em situações de violência ou perigo.",
+          "question": "Como posso promover diálogo e respeito em minha família, com segurança?",
+          "virtue": "Paz",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A força do perdão",
+          "theme": "Perdão",
+          "reflection": "Rita é lembrada por sua disposição de não alimentar vingança. Perdoar não significa negar o mal nem dispensar justiça; significa não permitir que o ódio determine o futuro.",
+          "question": "Que passo seguro posso dar para não alimentar o ressentimento?",
+          "virtue": "Perdão",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A esperança nas causas difíceis",
+          "theme": "Esperança",
+          "reflection": "A devoção popular chama Rita de intercessora nas causas impossíveis. Sua memória convida a não desistir, buscar ajuda e confiar em Deus mesmo diante de limites reais.",
+          "question": "Que situação difícil precisa de esperança e também de passos concretos?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A oração que sustenta",
+          "theme": "Oração",
+          "reflection": "Rita encontrou na oração força para atravessar diferentes etapas da vida. A oração pode nos ajudar a agir com sabedoria quando as emoções estão intensas.",
+          "question": "Tenho buscado a Deus antes de reagir impulsivamente?",
+          "virtue": "Oração",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A vocação pode amadurecer",
+          "theme": "Vocação",
+          "reflection": "Rita viveu diferentes estados de vida antes de ingressar na comunidade agostiniana. Sua trajetória recorda que o caminho vocacional pode passar por etapas e mudanças.",
+          "question": "Que etapa da minha vida posso viver com mais abertura a Deus?",
+          "virtue": "Disponibilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A reconciliação exige responsabilidade",
+          "theme": "Reconciliação",
+          "reflection": "A memória de Rita inspira a interromper ciclos de hostilidade. A reconciliação verdadeira exige respeito, mudança de atitudes e, quando necessário, limites que protejam as pessoas.",
+          "question": "Que atitude minha pode ajudar a interromper um conflito?",
+          "virtue": "Reconciliação",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A paciência que não desiste",
+          "theme": "Paciência",
+          "reflection": "Rita enfrentou perdas e desafios ao longo da vida. A paciência não apaga a tristeza, mas ajuda a atravessar o tempo sem abandonar a esperança e o cuidado consigo e com os outros.",
+          "question": "Em que situação preciso respeitar o tempo de amadurecimento?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A vida comunitária como apoio",
+          "theme": "Comunidade",
+          "reflection": "Na comunidade religiosa, Rita viveu oração e fraternidade. Caminhar com outras pessoas pode fortalecer em momentos em que nossas próprias forças parecem pequenas.",
+          "question": "Tenho procurado apoio em uma comunidade saudável?",
+          "virtue": "Fraternidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A humildade diante dos limites",
+          "theme": "Humildade",
+          "reflection": "A história de Rita lembra que nem tudo está sob nosso controle. Reconhecer limites não é fracasso; pode ser o começo de uma confiança mais profunda e de escolhas prudentes.",
+          "question": "Que limite preciso aceitar para agir com sabedoria?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Transformar a dor em cuidado",
+          "theme": "Compaixão",
+          "reflection": "As experiências difíceis podem ampliar nossa sensibilidade, sem que a dor seja necessária ou desejável. Podemos permitir que o que vivemos nos torne mais atentos ao sofrimento alheio.",
+          "question": "Minha experiência tem me tornado mais compassivo com quem sofre?",
+          "virtue": "Compaixão",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_dulce": {
+      "saint_name": "Santa Dulce dos Pobres",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "Não passar indiferente",
+          "theme": "Compaixão",
+          "reflection": "Irmã Dulce percebeu pessoas pobres e doentes que muitos ignoravam. Seu exemplo ensina que a caridade começa quando paramos de tratar a necessidade do outro como algo distante.",
+          "question": "Que sofrimento perto de mim tenho fingido não perceber?",
+          "virtue": "Compaixão",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Fazer muito com pouco",
+          "theme": "Criatividade",
+          "reflection": "Diante de recursos limitados, Irmã Dulce buscou soluções para acolher e cuidar. A falta de condições não precisa apagar a criatividade, a colaboração e a responsabilidade.",
+          "question": "Que recurso ou talento posso colocar a serviço de uma necessidade?",
+          "virtue": "Criatividade",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A fé que constrói cuidado",
+          "theme": "Serviço",
+          "reflection": "Sua obra social nasceu de uma espiritualidade voltada às pessoas concretas. A fé pode inspirar projetos duradouros, organização e compromisso com quem mais precisa.",
+          "question": "Como posso transformar uma boa intenção em ação organizada?",
+          "virtue": "Serviço",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A perseverança no bem",
+          "theme": "Perseverança",
+          "reflection": "Irmã Dulce enfrentou obstáculos para ampliar seu trabalho. O bem comum exige continuidade: muitas mudanças acontecem por meio de esforços pequenos e persistentes.",
+          "question": "Que iniciativa positiva preciso continuar, mesmo sem resultados imediatos?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Acolher com dignidade",
+          "theme": "Dignidade",
+          "reflection": "O cuidado oferecido por Irmã Dulce recorda que ninguém deve ser reduzido à pobreza ou à doença. Acolher é respeitar a pessoa e oferecer condições dignas.",
+          "question": "Meu modo de ajudar preserva a dignidade de quem recebe?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A caridade organizada",
+          "theme": "Bem comum",
+          "reflection": "A solidariedade pode ir além de doações isoladas. Projetos bem organizados, parcerias e responsabilidade ajudam a tornar o cuidado mais amplo e sustentável.",
+          "question": "Como posso colaborar para uma solução que permaneça no tempo?",
+          "virtue": "Compromisso",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A humildade que serve",
+          "theme": "Humildade",
+          "reflection": "Irmã Dulce é lembrada por uma vida de serviço, sem fazer do próprio trabalho uma busca de fama. A humildade coloca a necessidade do outro acima da vaidade.",
+          "question": "Tenho ajudado para aparecer ou porque alguém precisa?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A esperança que acolhe",
+          "theme": "Esperança",
+          "reflection": "Seu trabalho ofereceu acolhimento a pessoas em situações difíceis. Às vezes, a esperança começa quando alguém encontra uma porta aberta e uma pessoa disposta a ajudar.",
+          "question": "Como posso ser sinal de acolhimento para alguém?",
+          "virtue": "Acolhimento",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A atenção aos mais vulneráveis",
+          "theme": "Justiça social",
+          "reflection": "A caridade cristã também questiona as condições que produzem abandono e pobreza. Ajudar é necessário, e trabalhar por estruturas mais justas também é parte do compromisso.",
+          "question": "Que situação injusta posso conhecer melhor e ajudar a transformar?",
+          "virtue": "Justiça",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Pequenos gestos, grande amor",
+          "theme": "Generosidade",
+          "reflection": "Uma vida de serviço é construída por inúmeras decisões de cuidado. Não é preciso realizar uma grande obra para começar: uma visita, uma escuta ou uma ajuda já podem fazer diferença.",
+          "question": "Qual pequeno gesto de amor posso realizar ainda hoje?",
+          "virtue": "Generosidade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_filomena": {
+      "saint_name": "Santa Filomena",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A fidelidade à consciência",
+          "theme": "Fidelidade",
+          "reflection": "A devoção a Santa Filomena está ligada à memória de uma jovem mártir, embora muitos detalhes tradicionais de sua história não sejam historicamente comprovados. Sua veneração pode inspirar fidelidade ao bem e à consciência.",
+          "question": "Que valor importante preciso defender com responsabilidade?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Coragem sem agressividade",
+          "theme": "Coragem",
+          "reflection": "A tradição devocional apresenta Filomena como símbolo de coragem diante da perseguição. A coragem cristã procura permanecer no bem sem transformar firmeza em violência.",
+          "question": "Como posso defender aquilo em que acredito respeitando os outros?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A dignidade dos jovens",
+          "theme": "Dignidade",
+          "reflection": "A devoção a uma jovem santa recorda que a juventude possui voz, dignidade e capacidade de viver valores profundos. Jovens não são apenas promessa de futuro: são protagonistas do presente.",
+          "question": "Como posso usar minha juventude para construir algo bom agora?",
+          "virtue": "Dignidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A oração que fortalece",
+          "theme": "Oração",
+          "reflection": "A devoção dos fiéis a Santa Filomena inspira a buscar força na oração. Rezar não elimina automaticamente os desafios, mas pode orientar o coração para agir com esperança.",
+          "question": "Que intenção quero apresentar a Deus com confiança?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Esperança além das dificuldades",
+          "theme": "Esperança",
+          "reflection": "A memória dos mártires aponta para uma esperança que não se limita ao sucesso imediato. Permanecer fiel ao bem pode ter valor mesmo quando não recebemos reconhecimento.",
+          "question": "Em qual dificuldade preciso conservar a esperança?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A pureza das intenções",
+          "theme": "Integridade",
+          "reflection": "A tradição de sua devoção convida a refletir sobre integridade e coerência. Ter um coração íntegro é procurar o bem sem manipular pessoas nem esconder intenções egoístas.",
+          "question": "Minhas escolhas são guiadas por intenções honestas?",
+          "virtue": "Integridade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Ser firme diante da pressão",
+          "theme": "Liberdade",
+          "reflection": "A memória de Filomena pode inspirar quem sente pressão para agir contra a própria consciência. A liberdade cresce quando sabemos dizer não ao que fere a dignidade.",
+          "question": "Em que situação preciso estabelecer um limite saudável?",
+          "virtue": "Liberdade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A força da comunidade",
+          "theme": "Comunhão",
+          "reflection": "A devoção aos santos é vivida na comunhão da Igreja. Caminhar com outras pessoas de fé pode oferecer apoio, correção fraterna e encorajamento.",
+          "question": "Tenho buscado uma comunidade que me ajude a crescer?",
+          "virtue": "Comunhão",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A santidade não depende da fama",
+          "theme": "Simplicidade",
+          "reflection": "A veneração de santos recorda que o valor de uma vida não depende de notoriedade. O bem realizado em silêncio também pode produzir frutos duradouros.",
+          "question": "Tenho valorizado mais a aprovação pública do que a coerência?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Viver o bem com constância",
+          "theme": "Perseverança",
+          "reflection": "A devoção a Santa Filomena pode nos lembrar de perseverar em escolhas honestas e generosas. A fidelidade se constrói nas decisões repetidas de cada dia.",
+          "question": "Qual escolha boa posso repetir com mais constância?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_luzia": {
+      "saint_name": "Santa Luzia",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A luz da verdade",
+          "theme": "Verdade",
+          "reflection": "O nome de Luzia é associado à luz, e sua memória inspira a buscar a verdade. Viver na verdade exige honestidade consigo mesmo e respeito pela realidade, mesmo quando ela desafia nossas expectativas.",
+          "question": "Em que situação preciso ser mais honesto?",
+          "virtue": "Honestidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Enxergar além das aparências",
+          "theme": "Discernimento",
+          "reflection": "A devoção a Santa Luzia convida a pedir luz para enxergar com profundidade. Nem tudo que parece brilhante é bom; é preciso discernir intenções e consequências.",
+          "question": "Tenho julgado pessoas apenas pela aparência?",
+          "virtue": "Discernimento",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Coragem para permanecer fiel",
+          "theme": "Coragem",
+          "reflection": "Luzia é venerada como mártir que permaneceu fiel à fé. Sua memória recorda que valores importantes merecem compromisso, mesmo quando a pressão social tenta nos afastar deles.",
+          "question": "Que convicção merece mais firmeza em minhas atitudes?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Cuidar da visão do coração",
+          "theme": "Compaixão",
+          "reflection": "Enxergar bem também significa perceber a necessidade dos outros. Um olhar compassivo nota quem está triste, isolado ou precisando de ajuda.",
+          "question": "Quem ao meu redor precisa ser percebido com mais atenção?",
+          "virtue": "Compaixão",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A fé ilumina escolhas",
+          "theme": "Fé",
+          "reflection": "A luz da fé não resolve automaticamente todas as dúvidas, mas pode orientar escolhas pelo amor, pela justiça e pela esperança.",
+          "question": "Que decisão posso iluminar com os valores do Evangelho?",
+          "virtue": "Fé",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Não esconder o bem",
+          "theme": "Testemunho",
+          "reflection": "A memória de Santa Luzia inspira a não esconder a própria fé por medo de julgamentos. O testemunho pode ser simples, respeitoso e coerente com a vida.",
+          "question": "Como posso demonstrar meus valores sem impor nada a ninguém?",
+          "virtue": "Testemunho",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A esperança em tempos escuros",
+          "theme": "Esperança",
+          "reflection": "A imagem da luz ajuda a recordar que momentos difíceis não duram para sempre. A esperança nos encoraja a procurar ajuda e a dar pequenos passos em direção ao bem.",
+          "question": "Qual pequena luz posso oferecer a alguém hoje?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A dignidade do corpo",
+          "theme": "Respeito",
+          "reflection": "A devoção popular de Santa Luzia é associada à proteção da visão. Cuidar do corpo e da saúde, procurar atendimento e respeitar limites também são atitudes de responsabilidade.",
+          "question": "Tenho cuidado da minha saúde com atenção e responsabilidade?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A coragem de dizer não",
+          "theme": "Liberdade",
+          "reflection": "A tradição de sua história recorda a resistência diante de pressões injustas. Saber dizer não ao que fere a dignidade é uma forma importante de liberdade.",
+          "question": "A que pressão preciso responder com um limite claro?",
+          "virtue": "Liberdade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Ser luz para os outros",
+          "theme": "Serviço",
+          "reflection": "Ser luz não significa ser o centro das atenções. Significa ajudar alguém a encontrar clareza, esperança e companhia por meio de atitudes generosas.",
+          "question": "Que gesto pode tornar o caminho de alguém um pouco mais claro?",
+          "virtue": "Serviço",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_joao_bosco": {
+      "saint_name": "São João Bosco",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A educação com carinho",
+          "theme": "Educação",
+          "reflection": "Dom Bosco dedicou sua vida à educação e ao acompanhamento de jovens. Seu sistema preventivo valorizava razão, religião e amor. Educar é orientar com firmeza e proximidade.",
+          "question": "Como posso orientar alguém sem humilhar ou desanimar?",
+          "virtue": "Amor educativo",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Acreditar nos jovens",
+          "theme": "Confiança",
+          "reflection": "Dom Bosco enxergava possibilidades nos jovens e investia em seu crescimento. Em vez de definir alguém pelos erros, podemos ajudá-lo a descobrir capacidades e caminhos melhores.",
+          "question": "Tenho oferecido incentivo real aos jovens ao meu redor?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Corrigir sem humilhar",
+          "theme": "Respeito",
+          "reflection": "A educação salesiana valoriza a presença, o diálogo e a confiança. Uma correção que busca o bem deve preservar a dignidade e abrir espaço para recomeçar.",
+          "question": "Como posso corrigir uma atitude com respeito?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Alegria que aproxima de Deus",
+          "theme": "Alegria",
+          "reflection": "Dom Bosco valorizava a alegria, a amizade e atividades saudáveis na formação dos jovens. A alegria pode ser um ambiente onde a fé floresce e as pessoas se sentem acolhidas.",
+          "question": "Minha presença transmite alegria e acolhimento?",
+          "virtue": "Alegria",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Prevenir é também amar",
+          "theme": "Responsabilidade",
+          "reflection": "O sistema preventivo procura acompanhar e orientar antes que os problemas cresçam. Cuidar é estar presente, perceber sinais e oferecer apoio no momento certo.",
+          "question": "Quem precisa de acompanhamento antes que uma dificuldade aumente?",
+          "virtue": "Atenção",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "O estudo abre caminhos",
+          "theme": "Educação",
+          "reflection": "Dom Bosco valorizava a formação humana e profissional dos jovens. Estudar amplia possibilidades e pode ajudar a construir uma vida digna e contribuir com a sociedade.",
+          "question": "Como posso levar meus estudos mais a sério?",
+          "virtue": "Dedicação",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A fé vivida em comunidade",
+          "theme": "Comunidade",
+          "reflection": "A obra salesiana nasceu de relações, educadores e jovens reunidos em comunidade. A fé cresce quando existe espaço para amizade, participação e serviço.",
+          "question": "Como posso tornar meu grupo mais acolhedor?",
+          "virtue": "Comunhão",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A paciência de acompanhar",
+          "theme": "Paciência",
+          "reflection": "Acompanhar o crescimento de alguém exige tempo. Dom Bosco inspira educadores e amigos a não desistirem das pessoas por causa de dificuldades ou recaídas.",
+          "question": "Com quem preciso ter mais paciência e constância?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Trabalho com sentido",
+          "theme": "Vocação",
+          "reflection": "Dom Bosco uniu educação, trabalho e missão. Nossas atividades cotidianas podem ganhar sentido quando realizadas com honestidade e colocadas a serviço da vida.",
+          "question": "Como posso transformar meu trabalho ou estudo em serviço?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Sonhar e agir",
+          "theme": "Esperança",
+          "reflection": "Dom Bosco teve sonhos e projetos grandes, mas trabalhou concretamente para realizá-los. A esperança cristã inspira planejamento, colaboração e perseverança.",
+          "question": "Qual sonho bom precisa de um primeiro passo concreto?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_bento": {
+      "saint_name": "São Bento",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "O equilíbrio da rotina",
+          "theme": "Equilíbrio",
+          "reflection": "A tradição beneditina une oração e trabalho. São Bento inspira uma rotina em que estudo, descanso, serviço e oração tenham lugar, sem deixar uma área dominar todas as outras.",
+          "question": "Minha rotina está equilibrada ou tenho negligenciado algo essencial?",
+          "virtue": "Equilíbrio",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Escutar com o coração",
+          "theme": "Escuta",
+          "reflection": "A Regra de São Bento começa com um convite à escuta atenta. Escutar de verdade exige diminuir a pressa, acolher orientações e considerar o que o outro está dizendo.",
+          "question": "Tenho escutado para compreender ou apenas para responder?",
+          "virtue": "Escuta",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A humildade que constrói",
+          "theme": "Humildade",
+          "reflection": "A Regra beneditina apresenta a humildade como caminho de crescimento. Ser humilde não é se desprezar, mas reconhecer a verdade sobre si e permanecer disposto a aprender.",
+          "question": "Em que aspecto preciso reconhecer meus limites?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A estabilidade no bem",
+          "theme": "Perseverança",
+          "reflection": "A vida monástica beneditina valoriza permanecer fiel à comunidade e ao caminho assumido. A estabilidade ensina a não abandonar compromissos sempre que surgem dificuldades.",
+          "question": "Que compromisso merece minha perseverança?",
+          "virtue": "Estabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A oração como centro",
+          "theme": "Oração",
+          "reflection": "A oração litúrgica ocupa lugar central na tradição beneditina. Organizar o dia em torno de momentos com Deus ajuda a lembrar que a vida não se resume a tarefas.",
+          "question": "Que momento fixo posso reservar para Deus?",
+          "virtue": "Oração",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Acolher o visitante",
+          "theme": "Hospitalidade",
+          "reflection": "A Regra de São Bento orienta a receber os hóspedes com atenção e respeito. A hospitalidade cristã transforma a casa e a comunidade em lugares de acolhimento.",
+          "question": "Como posso receber melhor quem chega ou precisa de ajuda?",
+          "virtue": "Hospitalidade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "Trabalho feito com cuidado",
+          "theme": "Trabalho",
+          "reflection": "Na tradição beneditina, o trabalho tem dignidade e participa da vida comunitária. Fazer bem as tarefas comuns é uma maneira concreta de servir.",
+          "question": "Tenho realizado minhas tarefas com atenção e responsabilidade?",
+          "virtue": "Diligência",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A paz construída por dentro",
+          "theme": "Paz",
+          "reflection": "A busca beneditina pela paz envolve disciplina, oração e convivência. A paz não é apenas ausência de conflito: é uma disposição de ordenar a própria vida e respeitar os outros.",
+          "question": "Que hábito meu está alimentando inquietação ou conflito?",
+          "virtue": "Paz",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A comunidade acima do egoísmo",
+          "theme": "Comunidade",
+          "reflection": "A vida monástica exige cooperação e atenção às necessidades comuns. Viver em comunidade significa não agir como se tudo girasse em torno de nossas preferências.",
+          "question": "Em que posso colaborar mais com o grupo de que faço parte?",
+          "virtue": "Fraternidade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Começar novamente com fidelidade",
+          "theme": "Recomeço",
+          "reflection": "A disciplina espiritual não significa nunca falhar. Significa reconhecer desvios, corrigir o caminho e voltar ao essencial com humildade e perseverança.",
+          "question": "Qual prática boa preciso retomar sem esperar o momento perfeito?",
+          "virtue": "Recomeço",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_domingos_savio": {
+      "saint_name": "São Domingos Sávio",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A santidade também é jovem",
+          "theme": "Juventude",
+          "reflection": "Domingos Sávio mostrou que a juventude pode ser vivida com profundidade espiritual, amizade e responsabilidade. Não é preciso esperar a idade adulta para escolher o bem.",
+          "question": "Que atitude pode tornar minha juventude mais significativa?",
+          "virtue": "Santidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Fazer bem as pequenas coisas",
+          "theme": "Fidelidade",
+          "reflection": "Domingos buscava viver com dedicação nas tarefas comuns. A santidade se constrói quando fazemos o que nos cabe com amor, mesmo que pareça simples.",
+          "question": "Qual tarefa pequena posso realizar hoje com mais atenção?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Amizades que ajudam a crescer",
+          "theme": "Amizade",
+          "reflection": "Na convivência com Dom Bosco e outros jovens, Domingos encontrou um ambiente de formação. Uma boa amizade ajuda a crescer, corrigir erros e permanecer no caminho do bem.",
+          "question": "Minhas amizades fortalecem minhas melhores escolhas?",
+          "virtue": "Amizade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Alegria sem superficialidade",
+          "theme": "Alegria",
+          "reflection": "A alegria de Domingos não era falta de seriedade. Ela podia conviver com estudo, oração e compromisso. A alegria saudável fortalece a vida e aproxima as pessoas.",
+          "question": "Como posso cultivar uma alegria que também respeite os outros?",
+          "virtue": "Alegria",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A consciência como guia",
+          "theme": "Consciência",
+          "reflection": "Domingos procurava agir de acordo com sua consciência e sua fé. Formar a consciência exige aprender, refletir e escolher o bem mesmo quando ninguém está observando.",
+          "question": "Que escolha correta preciso fazer mesmo sem fiscalização?",
+          "virtue": "Integridade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Cuidar dos colegas",
+          "theme": "Fraternidade",
+          "reflection": "Sua vida juvenil inspira atenção aos colegas e disposição para ajudar. A escola e os grupos podem ser lugares de acolhimento, não de exclusão ou humilhação.",
+          "question": "Quem na minha turma ou grupo precisa de acolhimento?",
+          "virtue": "Fraternidade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A oração na vida jovem",
+          "theme": "Oração",
+          "reflection": "Domingos cultivava a oração e a devoção à Eucaristia. A vida espiritual pode acompanhar os estudos, as amizades e o lazer, sem ficar restrita a momentos isolados.",
+          "question": "Como posso incluir Deus de modo natural na minha rotina?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Pureza como respeito",
+          "theme": "Respeito",
+          "reflection": "A tradição espiritual de Domingos valoriza a pureza de coração. Isso envolve respeitar o próprio corpo, a liberdade alheia e a dignidade das relações.",
+          "question": "Minhas atitudes demonstram respeito por mim e pelos outros?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Coragem para escolher o bem",
+          "theme": "Coragem",
+          "reflection": "Ser jovem pode trazer pressões para seguir o grupo. Domingos inspira a escolher o bem com coragem, sem precisar desprezar ou julgar quem pensa diferente.",
+          "question": "Em que situação preciso ter coragem para não seguir uma pressão ruim?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Um propósito para cada dia",
+          "theme": "Propósito",
+          "reflection": "A vida de Domingos recorda que a santidade se vive no presente. Um propósito simples, como estudar com dedicação ou ajudar alguém, pode orientar o dia inteiro.",
+          "question": "Qual propósito concreto quero viver hoje?",
+          "virtue": "Propósito",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_gabriel_das_dores": {
+      "saint_name": "São Gabriel de Nossa Senhora das Dores",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A alegria de uma entrega",
+          "theme": "Vocação",
+          "reflection": "São Gabriel das Dores deixou uma vida de possibilidades para abraçar a vida religiosa passionista. Sua trajetória convida a discernir o que dá sentido profundo à existência.",
+          "question": "Que escolha me aproxima de uma vida mais coerente com meus valores?",
+          "virtue": "Disponibilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A devoção que educa o coração",
+          "theme": "Devoção mariana",
+          "reflection": "Sua espiritualidade esteve profundamente ligada à Virgem Maria. A devoção mariana pode ensinar confiança, disponibilidade e atenção à vontade de Deus.",
+          "question": "Que atitude de Maria posso procurar imitar hoje?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A juventude com profundidade",
+          "theme": "Juventude",
+          "reflection": "Gabriel entrou jovem na vida religiosa e é lembrado por sua alegria e seriedade espiritual. A juventude pode unir entusiasmo, discernimento e compromisso.",
+          "question": "Tenho usado minha energia juvenil para construir algo bom?",
+          "virtue": "Entusiasmo",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A cruz vivida com amor",
+          "theme": "Esperança",
+          "reflection": "Na tradição passionista, a contemplação da Paixão de Cristo conduz ao amor e à esperança. Recordar a cruz não é buscar sofrimento, mas reconhecer o amor que permanece nas provações.",
+          "question": "Como posso responder ao sofrimento com cuidado e esperança?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A fidelidade na comunidade",
+          "theme": "Comunidade",
+          "reflection": "A vida religiosa de Gabriel foi vivida em comunidade. Conviver exige renunciar ao egoísmo, cumprir responsabilidades e aprender a caminhar com pessoas diferentes.",
+          "question": "Que atitude pode melhorar minha convivência com os outros?",
+          "virtue": "Fraternidade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A simplicidade do coração",
+          "theme": "Simplicidade",
+          "reflection": "Gabriel é lembrado por uma espiritualidade marcada pela simplicidade e pela alegria. Um coração simples não precisa disputar atenção o tempo todo.",
+          "question": "Tenho buscado reconhecimento em excesso?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A oração que transforma",
+          "theme": "Oração",
+          "reflection": "A oração foi parte importante de sua formação. Rezar pode mudar nosso olhar e nos tornar mais disponíveis para servir, em vez de apenas pedir que tudo mude ao nosso redor.",
+          "question": "Que atitude minha precisa ser transformada pela oração?",
+          "virtue": "Conversão",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A alegria nas coisas pequenas",
+          "theme": "Alegria",
+          "reflection": "A memória de Gabriel associa santidade e alegria. Pequenos deveres, amizades e momentos comuns podem ser vividos com gratidão e bom humor.",
+          "question": "Tenho percebido motivos simples para agradecer?",
+          "virtue": "Gratidão",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Discernir o que realmente importa",
+          "theme": "Discernimento",
+          "reflection": "Escolher uma vocação exige reconhecer desejos, capacidades e responsabilidades. O discernimento ajuda a distinguir impulsos passageiros de compromissos que conduzem ao bem.",
+          "question": "Que decisão precisa de mais oração e reflexão?",
+          "virtue": "Discernimento",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Viver com o coração disponível",
+          "theme": "Disponibilidade",
+          "reflection": "A entrega de Gabriel inspira uma disposição para responder ao chamado de Deus. Estar disponível é perceber oportunidades de amar e não ficar preso apenas aos próprios planos.",
+          "question": "A que convite de serviço posso responder hoje?",
+          "virtue": "Disponibilidade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_jose": {
+      "saint_name": "São José",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A grandeza do silêncio",
+          "theme": "Silêncio",
+          "reflection": "José aparece nos Evangelhos mais por suas atitudes do que por palavras. Seu silêncio inspira uma fé que não precisa de espetáculo: ela se revela em decisões responsáveis e amorosas.",
+          "question": "Minhas atitudes falam com coerência sobre aquilo em que acredito?",
+          "virtue": "Discrição",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Proteger quem nos foi confiado",
+          "theme": "Proteção",
+          "reflection": "José acolheu Maria e cuidou de Jesus, assumindo responsabilidades em situações difíceis. Proteger é agir com atenção, respeito e compromisso com a segurança do outro.",
+          "question": "Quem depende de meu cuidado e responsabilidade?",
+          "virtue": "Proteção",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Trabalhar com dignidade",
+          "theme": "Trabalho",
+          "reflection": "José é tradicionalmente reconhecido como trabalhador. Seu exemplo recorda que o trabalho cotidiano possui dignidade e pode ser vivido com honestidade, competência e serviço.",
+          "question": "Tenho valorizado o trabalho e o esforço de outras pessoas?",
+          "virtue": "Diligência",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Confiar em meio às mudanças",
+          "theme": "Confiança",
+          "reflection": "José precisou agir diante de situações inesperadas. Sua história inspira a buscar orientação, avaliar os riscos e confiar em Deus sem fugir das responsabilidades.",
+          "question": "Como posso enfrentar uma mudança com prudência e confiança?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Amar sem controlar",
+          "theme": "Amor",
+          "reflection": "O cuidado de José por Jesus e Maria foi marcado pela responsabilidade. Amar não é controlar a vida do outro, mas oferecer presença, proteção e espaço para crescer.",
+          "question": "Tenho confundido cuidado com controle em algum relacionamento?",
+          "virtue": "Amor",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A coragem de agir",
+          "theme": "Coragem",
+          "reflection": "Diante dos desafios narrados nos Evangelhos, José tomou decisões para proteger sua família. A coragem pode ser discreta: consiste em fazer o que é necessário mesmo com medo.",
+          "question": "Que atitude responsável estou adiando?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A justiça acompanhada de misericórdia",
+          "theme": "Justiça",
+          "reflection": "O Evangelho apresenta José como homem justo. Sua justiça não é dureza: ela aparece junto da preocupação em não expor Maria à humilhação.",
+          "question": "Como posso unir verdade, justiça e misericórdia ao lidar com alguém?",
+          "virtue": "Misericórdia",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A presença que sustenta",
+          "theme": "Família",
+          "reflection": "José oferece um exemplo de presença fiel na vida familiar. Estar presente envolve escutar, participar das tarefas e assumir compromissos, não apenas compartilhar o mesmo espaço.",
+          "question": "Tenho estado realmente presente para quem amo?",
+          "virtue": "Presença",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Aceitar não controlar tudo",
+          "theme": "Abandono",
+          "reflection": "A caminhada de José incluiu acontecimentos que não estavam em seus planos. A confiança em Deus ajuda a agir com responsabilidade sem exigir controle absoluto sobre o futuro.",
+          "question": "Que situação preciso enfrentar sem tentar controlar cada detalhe?",
+          "virtue": "Abandono confiante",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Ser guardião do bem",
+          "theme": "Responsabilidade",
+          "reflection": "A tradição cristã reconhece José como guardião da Sagrada Família. Cada pessoa pode ser guardiã do bem em seu ambiente, protegendo os vulneráveis e promovendo respeito.",
+          "question": "Que bem posso proteger no meu ambiente hoje?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_luis_montfort": {
+      "saint_name": "São Luís Maria Grignion de Montfort",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "Pertencer a Cristo por Maria",
+          "theme": "Devoção mariana",
+          "reflection": "Montfort ensinou uma espiritualidade de consagração a Jesus por meio de Maria. A devoção mariana autêntica não substitui Cristo: ajuda a seguir Jesus com confiança e disponibilidade.",
+          "question": "Minha devoção a Maria me aproxima mais de Jesus e do Evangelho?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A humildade de aprender com Maria",
+          "theme": "Humildade",
+          "reflection": "Maria acolheu a vontade de Deus com disponibilidade. Contemplar sua humildade nos ensina a escutar, servir e não colocar o próprio ego no centro.",
+          "question": "Em que situação posso escolher servir em vez de buscar destaque?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A fé que se torna missão",
+          "theme": "Evangelização",
+          "reflection": "Montfort foi missionário e pregador. A fé recebida pode ser compartilhada com respeito, por palavras e atitudes, sem imposição ou desprezo por quem pensa diferente.",
+          "question": "Como posso transmitir esperança sem pressionar ninguém?",
+          "virtue": "Missão",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A simplicidade do Evangelho",
+          "theme": "Simplicidade",
+          "reflection": "Sua espiritualidade procurava conduzir as pessoas ao essencial da vida cristã. A simplicidade ajuda a distinguir o que realmente alimenta a fé do que é apenas aparência.",
+          "question": "O que preciso simplificar em minha vida espiritual?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A cruz como caminho de amor",
+          "theme": "Entrega",
+          "reflection": "A espiritualidade de Montfort valoriza a união com Cristo crucificado. Contemplar a cruz nos recorda o amor de Jesus e nos chama a servir, sem procurar o sofrimento por si mesmo.",
+          "question": "Como posso responder ao amor de Cristo com uma atitude concreta?",
+          "virtue": "Entrega",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A missão começa perto",
+          "theme": "Serviço",
+          "reflection": "A missão cristã não depende de grandes viagens. Ela começa na família, na comunidade, na escola e nos ambientes em que podemos testemunhar respeito e caridade.",
+          "question": "Em qual ambiente próximo posso viver melhor minha missão?",
+          "virtue": "Serviço",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A oração que educa o desejo",
+          "theme": "Oração",
+          "reflection": "A oração mariana pode educar o coração para desejar aquilo que conduz a Cristo. Rezar não é apenas pedir resultados, mas deixar que Deus transforme nossas prioridades.",
+          "question": "O que minhas orações revelam sobre aquilo que mais desejo?",
+          "virtue": "Conversão",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A coragem de anunciar",
+          "theme": "Coragem",
+          "reflection": "Montfort percorreu caminhos difíceis para anunciar o Evangelho. A coragem missionária precisa caminhar junto com humildade, estudo e respeito pela liberdade das pessoas.",
+          "question": "Tenho coragem de dar testemunho do bem com respeito?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A confiança na providência",
+          "theme": "Confiança",
+          "reflection": "A confiança em Deus sustenta a missão mesmo quando os resultados não aparecem imediatamente. Fazer o bem exige fidelidade, planejamento e entrega do que não controlamos.",
+          "question": "Consigo fazer minha parte sem exigir controlar o resultado?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Maria, modelo de disponibilidade",
+          "theme": "Disponibilidade",
+          "reflection": "A resposta de Maria ao chamado de Deus inspira uma vida disponível. Estar disponível não significa aceitar tudo sem discernimento, mas oferecer a liberdade ao que é bom e justo.",
+          "question": "A que convite de Deus posso responder com mais generosidade?",
+          "virtue": "Disponibilidade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_pier_giorgio_frassati": {
+      "saint_name": "São Pier Giorgio Frassati",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A santidade com os amigos",
+          "theme": "Amizade",
+          "reflection": "Pier Giorgio cultivava amizades, alegria e vida comunitária. Sua história mostra que a santidade não afasta da convivência: ela pode tornar as amizades mais verdadeiras e generosas.",
+          "question": "Sou um amigo que ajuda os outros a crescer?",
+          "virtue": "Amizade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A caridade que não faz propaganda",
+          "theme": "Caridade",
+          "reflection": "Ele ajudava pessoas pobres de modo discreto. A generosidade não precisa de exposição pública; o importante é que a pessoa necessitada receba cuidado e respeito.",
+          "question": "Que ajuda posso oferecer sem buscar reconhecimento?",
+          "virtue": "Discrição",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A alegria de viver",
+          "theme": "Alegria",
+          "reflection": "Pier Giorgio gostava de atividades ao ar livre, montanhismo e convivência. A alegria saudável é um dom que pode ser vivido com gratidão, equilíbrio e responsabilidade.",
+          "question": "Tenho reservado espaço para atividades que renovam minha alegria?",
+          "virtue": "Alegria",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A fé que move os pés",
+          "theme": "Fé e ação",
+          "reflection": "Sua espiritualidade não ficou restrita à oração: ela o levou a servir e participar da vida social. A fé amadurece quando se transforma em atitudes concretas.",
+          "question": "Que ação minha pode tornar minha fé mais visível?",
+          "virtue": "Compromisso",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Subir juntos a montanha",
+          "theme": "Perseverança",
+          "reflection": "O gosto de Pier Giorgio pelo montanhismo inspira a perseverar em objetivos exigentes. Caminhar com outros torna o esforço mais humano e fortalece a amizade.",
+          "question": "Qual desafio posso enfrentar com constância e apoio?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Defender a dignidade dos pobres",
+          "theme": "Justiça",
+          "reflection": "Pier Giorgio se preocupava com a situação dos trabalhadores e das pessoas pobres. A caridade também pede atenção às causas da desigualdade e compromisso com a justiça.",
+          "question": "Tenho procurado compreender as dificuldades de quem vive em situação de pobreza?",
+          "virtue": "Justiça",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A juventude comprometida",
+          "theme": "Participação",
+          "reflection": "Ele participou de associações e da vida pública de seu tempo. Jovens podem contribuir para a sociedade com estudo, responsabilidade, diálogo e participação cidadã.",
+          "question": "Que questão da minha comunidade merece minha participação?",
+          "virtue": "Cidadania",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A oração no meio da rotina",
+          "theme": "Oração",
+          "reflection": "A vida espiritual de Pier Giorgio acompanhava seus estudos, amizades e atividades. A oração pode sustentar o dia inteiro e orientar a maneira como tratamos as pessoas.",
+          "question": "Como posso manter Deus presente em minha rotina?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Ser coerente em público e em privado",
+          "theme": "Coerência",
+          "reflection": "Pier Giorgio procurava viver os valores cristãos em diferentes ambientes. A coerência aparece quando não mudamos nossos princípios apenas para agradar a cada grupo.",
+          "question": "Sou a mesma pessoa quando estou sozinho e quando estou acompanhado?",
+          "virtue": "Integridade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "A esperança que contagia",
+          "theme": "Esperança",
+          "reflection": "Sua alegria e serviço continuam inspirando jovens. Uma vida esperançosa pode encorajar outras pessoas a não se acomodarem diante da injustiça e do sofrimento.",
+          "question": "Como minha maneira de viver pode encorajar alguém?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_tarcisio": {
+      "saint_name": "São Tarcísio",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "Respeitar o que é sagrado",
+          "theme": "Eucaristia",
+          "reflection": "A tradição apresenta Tarcísio como jovem mártir ligado à proteção da Eucaristia. Sua memória convida a tratar com reverência aquilo que é sagrado e a compreender profundamente a fé que celebramos.",
+          "question": "Minha participação na Missa expressa respeito e atenção?",
+          "virtue": "Reverência",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A coragem que nasce do amor",
+          "theme": "Coragem",
+          "reflection": "A tradição de Tarcísio recorda uma coragem ligada ao amor por Cristo e pela comunidade. A coragem cristã não busca perigo, mas permanece fiel ao bem quando necessário.",
+          "question": "Que atitude boa exige coragem de minha parte?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A fé dos jovens tem valor",
+          "theme": "Juventude",
+          "reflection": "Tarcísio é venerado como jovem mártir. Sua memória recorda que os jovens podem assumir responsabilidades e viver uma fé profunda, com acompanhamento e formação adequados.",
+          "question": "Como posso participar mais ativamente da vida da comunidade?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Servir com discrição",
+          "theme": "Serviço",
+          "reflection": "A tradição conta que Tarcísio levava a Eucaristia aos cristãos. Seu exemplo inspira um serviço discreto, feito com respeito e sem transformar a missão em busca de aplausos.",
+          "question": "Que serviço posso realizar sem precisar aparecer?",
+          "virtue": "Discrição",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A comunidade é família",
+          "theme": "Comunhão",
+          "reflection": "A memória de Tarcísio está ligada ao cuidado com outros cristãos. A comunidade de fé é chamada a cuidar de seus membros, especialmente dos que estão fragilizados.",
+          "question": "Tenho percebido quem está afastado ou precisando de apoio na comunidade?",
+          "virtue": "Comunhão",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A fidelidade nas pequenas tarefas",
+          "theme": "Fidelidade",
+          "reflection": "A tradição devocional associa Tarcísio a uma missão simples, mas importante. Nenhuma tarefa feita com amor é insignificante quando contribui para o bem comum.",
+          "question": "Tenho tratado minhas pequenas responsabilidades com seriedade?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A reverência que transforma a vida",
+          "theme": "Devoção",
+          "reflection": "Respeitar a Eucaristia também significa deixar que a comunhão com Cristo transforme nossa relação com os outros. A reverência verdadeira conduz à caridade.",
+          "question": "Minha devoção eucarística aparece no modo como trato as pessoas?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Não ceder à pressão",
+          "theme": "Firmeza",
+          "reflection": "A narrativa tradicional de seu martírio inspira firmeza diante de pressões. É importante aprender a defender convicções com prudência, sem provocar conflitos desnecessários.",
+          "question": "Em que situação preciso permanecer fiel ao que é correto?",
+          "virtue": "Firmeza",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A amizade com Jesus",
+          "theme": "Intimidade com Deus",
+          "reflection": "A devoção a Tarcísio pode despertar o desejo de cultivar amizade com Jesus. Essa amizade cresce na oração, na Eucaristia e na prática do amor ao próximo.",
+          "question": "O que posso fazer para aprofundar minha amizade com Jesus?",
+          "virtue": "Intimidade com Deus",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Uma vida oferecida ao bem",
+          "theme": "Doação",
+          "reflection": "A memória de Tarcísio convida a oferecer capacidades e tempo à comunidade. Não precisamos realizar grandes feitos para que nossa vida seja marcada pela generosidade.",
+          "question": "Que parte do meu tempo posso oferecer ao serviço?",
+          "virtue": "Doação",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_teresa_avila": {
+      "saint_name": "Santa Teresa d'Ávila",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A oração como amizade",
+          "theme": "Oração",
+          "reflection": "Teresa descreveu a oração como uma relação de amizade com Deus. Rezar é estar com Aquele que nos ama, falando com sinceridade e aprendendo também a escutar.",
+          "question": "Minha oração tem espaço para conversar com Deus de coração aberto?",
+          "virtue": "Amizade com Deus",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Coragem para reformar a própria vida",
+          "theme": "Reforma",
+          "reflection": "Teresa enfrentou dificuldades para renovar a vida carmelita. A mudança começa quando reconhecemos o que precisa ser reorganizado e perseveramos com humildade.",
+          "question": "Que aspecto da minha rotina precisa de uma reforma?",
+          "virtue": "Coragem",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Conhecer a si mesmo",
+          "theme": "Autoconhecimento",
+          "reflection": "Teresa valorizava o conhecimento de si como parte do caminho espiritual. Reconhecer desejos, limites e fragilidades ajuda a crescer sem máscaras.",
+          "question": "Tenho reservado tempo para examinar minhas atitudes com sinceridade?",
+          "virtue": "Autoconhecimento",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Perseverar quando a oração é difícil",
+          "theme": "Perseverança",
+          "reflection": "A experiência de Teresa incluiu distrações e dificuldades na oração. Não precisamos desistir porque um momento de oração parece pouco produtivo; a fidelidade também amadurece o coração.",
+          "question": "Consigo permanecer na oração mesmo quando não sinto nada especial?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "Humildade diante da verdade",
+          "theme": "Humildade",
+          "reflection": "Teresa ensinava que a humildade envolve caminhar na verdade. Não é se diminuir, mas reconhecer quem somos diante de Deus, sem orgulho nem falsa modéstia.",
+          "question": "Tenho coragem de reconhecer meus limites e meus dons?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A amizade que sustenta a missão",
+          "theme": "Amizade",
+          "reflection": "Teresa valorizava relações de confiança e colaboração. Grandes projetos espirituais também precisam de amizades sinceras, conselhos e pessoas dispostas a caminhar juntas.",
+          "question": "Quem me ajuda a crescer e a permanecer fiel ao bem?",
+          "virtue": "Amizade",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A determinação com alegria",
+          "theme": "Determinação",
+          "reflection": "Teresa uniu determinação e senso prático em sua missão reformadora. A vida espiritual não precisa ser desânimo: pode reunir coragem, alegria e trabalho concreto.",
+          "question": "Qual projeto bom precisa de mais determinação?",
+          "virtue": "Determinação",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Deus também está no cotidiano",
+          "theme": "Presença de Deus",
+          "reflection": "A espiritualidade carmelita convida a buscar Deus no interior da vida. Tarefas comuns podem ser vividas com atenção, gratidão e amor.",
+          "question": "Como posso transformar uma tarefa cotidiana em gesto de amor?",
+          "virtue": "Presença",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "O amor como medida do caminho",
+          "theme": "Caridade",
+          "reflection": "Para Teresa, o crescimento espiritual deve aparecer no amor ao próximo. Experiências religiosas profundas precisam tornar a pessoa mais paciente e generosa.",
+          "question": "As pessoas próximas percebem que estou crescendo no amor?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Caminhar sem perder a esperança",
+          "theme": "Esperança",
+          "reflection": "Teresa enfrentou resistências e dificuldades, mas continuou sua missão. A esperança sustenta quem trabalha pelo bem sem exigir resultados imediatos.",
+          "question": "Que dificuldade não deve me fazer abandonar um projeto bom?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_teresinha_calcuta": {
+      "saint_name": "Santa Teresa de Calcutá",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "Fazer pequenas coisas com grande amor",
+          "theme": "Caridade",
+          "reflection": "Madre Teresa ficou conhecida pelo serviço aos pobres e doentes. Sua mensagem recorda que o amor se manifesta em gestos concretos, mesmo quando parecem pequenos.",
+          "question": "Qual pequena tarefa posso fazer hoje com mais amor?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Ver dignidade em cada pessoa",
+          "theme": "Dignidade",
+          "reflection": "Seu trabalho entre pessoas abandonadas expressava a convicção de que cada vida merece cuidado. Ninguém deve ser tratado como descartável ou definido por sua condição.",
+          "question": "Tenho tratado todas as pessoas com respeito, inclusive as mais vulneráveis?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "Acolher quem está sozinho",
+          "theme": "Acolhimento",
+          "reflection": "A solidão e o abandono fizeram parte da realidade que Madre Teresa procurou enfrentar. Uma visita, uma conversa e uma escuta podem devolver a alguém a sensação de ser visto.",
+          "question": "Quem pode estar se sentindo sozinho perto de mim?",
+          "virtue": "Acolhimento",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Servir sem escolher quem merece",
+          "theme": "Generosidade",
+          "reflection": "A caridade cristã não é prêmio para quem pensa como nós. Ela procura reconhecer a dignidade de cada pessoa e oferecer cuidado sem discriminação.",
+          "question": "Tenho ajudado apenas quem me agrada?",
+          "virtue": "Generosidade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A oração sustenta o serviço",
+          "theme": "Oração",
+          "reflection": "A espiritualidade de Madre Teresa unia oração e serviço. O encontro com Deus pode renovar as forças para cuidar de pessoas, especialmente quando a tarefa parece pesada.",
+          "question": "Tenho alimentado minha ação com momentos de oração?",
+          "virtue": "Oração",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A presença vale muito",
+          "theme": "Presença",
+          "reflection": "Cuidar não é apenas resolver problemas materiais. Permanecer ao lado de alguém, escutar sem pressa e respeitar sua história também são formas profundas de amor.",
+          "question": "A quem posso oferecer presença sem distrações?",
+          "virtue": "Presença",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A humildade de começar pequeno",
+          "theme": "Humildade",
+          "reflection": "Grandes obras podem começar com uma decisão simples. A humildade permite fazer o que está ao alcance sem esperar condições perfeitas ou reconhecimento.",
+          "question": "Que bem possível estou adiando por achar pequeno demais?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A fidelidade nos dias difíceis",
+          "theme": "Perseverança",
+          "reflection": "A trajetória de Madre Teresa incluiu períodos de aridez espiritual relatados em seus escritos. Sua perseverança recorda que a fidelidade pode continuar mesmo quando as emoções não acompanham.",
+          "question": "Como posso permanecer comprometido com o bem em um dia difícil?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A paz começa no relacionamento",
+          "theme": "Paz",
+          "reflection": "Sua mensagem frequentemente relacionava paz e amor dentro das relações humanas. A paz começa quando escolhemos respeito, perdão responsável e cuidado em vez de desprezo.",
+          "question": "Que palavra minha pode ajudar a construir paz hoje?",
+          "virtue": "Paz",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Transformar compaixão em ação",
+          "theme": "Serviço",
+          "reflection": "Sentir compaixão é importante, mas ela pede resposta. Podemos transformar a preocupação com os outros em ajuda organizada, voluntariado ou defesa da dignidade humana.",
+          "question": "Qual será meu próximo gesto concreto de serviço?",
+          "virtue": "Compromisso",
+          "status": "revisar"
+        }
+      ]
+    },
+    "santa_teresinha_jesus": {
+      "saint_name": "Santa Teresinha do Menino Jesus",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "O pequeno caminho",
+          "theme": "Pequenez",
+          "reflection": "Teresinha ensinou o pequeno caminho: confiar em Deus e realizar pequenas ações com amor. A santidade pode crescer em gestos simples, sem necessidade de feitos grandiosos.",
+          "question": "Que pequena atitude posso fazer hoje com muito amor?",
+          "virtue": "Simplicidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Confiar como filho",
+          "theme": "Confiança",
+          "reflection": "Sua espiritualidade destaca a confiança filial na misericórdia de Deus. Não precisamos fingir perfeição para nos aproximar dele; podemos reconhecer nossa fragilidade e pedir ajuda.",
+          "question": "Consigo apresentar a Deus minhas fraquezas sem desespero?",
+          "virtue": "Confiança",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "O amor nas coisas comuns",
+          "theme": "Caridade",
+          "reflection": "Teresinha procurava viver o amor nas tarefas e relações cotidianas. A caridade se revela no modo como respondemos às pessoas, especialmente quando algo nos contraria.",
+          "question": "Como posso tratar com mais amor alguém que me irrita?",
+          "virtue": "Caridade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "A paciência com as diferenças",
+          "theme": "Paciência",
+          "reflection": "Na vida comunitária, Teresinha precisou conviver com pessoas de temperamentos diferentes. A paciência não exige gostar de tudo, mas respeitar e procurar o bem do outro.",
+          "question": "Com quem preciso exercitar mais paciência?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A alegria de ser amado por Deus",
+          "theme": "Esperança",
+          "reflection": "A confiança de Teresinha na misericórdia de Deus sustenta uma esperança que não depende de desempenho perfeito. O amor de Deus nos chama a crescer, não a viver paralisados pela culpa.",
+          "question": "Tenho permitido que a misericórdia de Deus me ajude a recomeçar?",
+          "virtue": "Esperança",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Fazer tudo com intenção de amor",
+          "theme": "Intenção",
+          "reflection": "Um gesto simples pode ganhar profundidade quando é oferecido com amor. A intenção não substitui a qualidade da ação, mas orienta o coração para servir.",
+          "question": "Que tarefa comum posso oferecer a Deus hoje?",
+          "virtue": "Amor",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A oração pela missão dos outros",
+          "theme": "Missão",
+          "reflection": "Mesmo vivendo no Carmelo, Teresinha cultivou forte desejo missionário e foi reconhecida como padroeira das missões. Podemos apoiar quem anuncia o Evangelho por oração e serviço.",
+          "question": "Por quem posso rezar e como posso apoiar uma missão?",
+          "virtue": "Intercessão",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A humildade de reconhecer limites",
+          "theme": "Humildade",
+          "reflection": "O pequeno caminho começa por reconhecer que não somos autossuficientes. Aceitar limites permite pedir ajuda, aprender e confiar mais profundamente.",
+          "question": "Em que situação preciso aceitar que não consigo fazer tudo sozinho?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "O amor que não faz barulho",
+          "theme": "Discrição",
+          "reflection": "Muitas atitudes de Teresinha aconteceram sem reconhecimento público. O amor não precisa de plateia: pode florescer em escolhas escondidas, constantes e sinceras.",
+          "question": "Que gesto discreto posso fazer por alguém?",
+          "virtue": "Discrição",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Ser amor no coração da Igreja",
+          "theme": "Vocação",
+          "reflection": "Teresinha expressou o desejo de que o amor animasse todas as vocações. Cada pessoa pode encontrar sua maneira própria de servir e fazer o amor circular.",
+          "question": "Como minha vocação, meus estudos ou meu trabalho podem servir ao amor?",
+          "virtue": "Vocação",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_tomas_aquino": {
+      "saint_name": "São Tomás de Aquino",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A busca sincera da verdade",
+          "theme": "Verdade",
+          "reflection": "Tomás dedicou a vida ao estudo e à reflexão teológica. Sua trajetória recorda que a verdade merece ser procurada com paciência, honestidade e abertura para aprender.",
+          "question": "Tenho buscado compreender antes de formar uma opinião?",
+          "virtue": "Busca da verdade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "Fé e razão caminham juntas",
+          "theme": "Fé e razão",
+          "reflection": "Tomás mostrou que a inteligência pode dialogar com a fé. Pensar com profundidade não precisa enfraquecer a espiritualidade; pode ajudar a compreender melhor aquilo em que cremos.",
+          "question": "Que questão posso estudar com seriedade em vez de repetir respostas prontas?",
+          "virtue": "Sabedoria",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A humildade do estudante",
+          "theme": "Humildade",
+          "reflection": "Apesar de sua grande contribuição intelectual, Tomás reconhecia os limites do conhecimento humano diante de Deus. Estudar exige humildade para admitir o que ainda não sabemos.",
+          "question": "Como reajo quando descubro que não sei alguma coisa?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Estudar para servir",
+          "theme": "Educação",
+          "reflection": "O conhecimento ganha sentido quando contribui para o bem. Aprender não deve ser apenas competir por notas ou prestígio, mas desenvolver capacidades para servir à sociedade.",
+          "question": "Como meus estudos podem beneficiar outras pessoas?",
+          "virtue": "Serviço",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A paciência de pensar",
+          "theme": "Paciência",
+          "reflection": "Questões complexas exigem tempo e atenção. Tomás inspira a não aceitar explicações apressadas e a construir argumentos com cuidado e respeito.",
+          "question": "Tenho dado tempo suficiente para compreender assuntos difíceis?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "Dialogar sem desprezar",
+          "theme": "Diálogo",
+          "reflection": "A tradição intelectual de Tomás envolveu examinar argumentos e responder a objeções. O diálogo verdadeiro procura compreender a posição do outro antes de criticá-la.",
+          "question": "Consigo discordar apresentando razões sem atacar a pessoa?",
+          "virtue": "Respeito",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A inteligência a serviço do bem",
+          "theme": "Responsabilidade",
+          "reflection": "A inteligência é um dom que pede responsabilidade. Conhecimento pode construir, esclarecer e proteger, mas também pode ser usado para manipular; cabe escolher seu propósito.",
+          "question": "Tenho usado meu conhecimento com responsabilidade?",
+          "virtue": "Responsabilidade",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "Contemplar e compartilhar",
+          "theme": "Contemplação",
+          "reflection": "Tomás valorizava a contemplação e o compartilhamento daquilo que se contempla. Aprender algo valioso pode despertar o desejo de explicar, ensinar e ajudar outras pessoas.",
+          "question": "Que conhecimento posso compartilhar para ajudar alguém?",
+          "virtue": "Generosidade",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "A oração antes do estudo",
+          "theme": "Oração",
+          "reflection": "A tradição de Tomás associa o estudo à oração e à busca de sabedoria. Pedir luz a Deus pode ajudar a estudar com humildade e orientar o conhecimento para o bem.",
+          "question": "Tenho lembrado de pedir sabedoria antes de estudar ou decidir?",
+          "virtue": "Sabedoria",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "Reconhecer o mistério",
+          "theme": "Humildade",
+          "reflection": "No fim de sua vida, Tomás reconheceu a distância entre suas palavras e a grandeza do mistério divino. A humildade intelectual permite continuar buscando sem imaginar que dominamos tudo.",
+          "question": "Que mistério ou limite preciso aprender a respeitar?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        }
+      ]
+    },
+    "sao_joao_maria_vianney": {
+      "saint_name": "São João Maria Vianney",
+      "reflections": [
+        {
+          "id": 1,
+          "title": "A fidelidade na missão",
+          "theme": "Vocação",
+          "reflection": "O Cura d'Ars dedicou sua vida ao serviço pastoral de uma pequena comunidade. Sua história recorda que uma missão não precisa ser grandiosa aos olhos do mundo para produzir frutos profundos.",
+          "question": "Tenho valorizado a missão que está diante de mim?",
+          "virtue": "Fidelidade",
+          "status": "revisar"
+        },
+        {
+          "id": 2,
+          "title": "A oração pelo povo",
+          "theme": "Oração",
+          "reflection": "Vianney sustentava seu ministério com oração. Rezar pelas pessoas que encontramos ajuda a olhar cada uma com mais caridade e a reconhecer suas necessidades.",
+          "question": "Por quem preciso rezar com mais constância?",
+          "virtue": "Intercessão",
+          "status": "revisar"
+        },
+        {
+          "id": 3,
+          "title": "A misericórdia que acolhe",
+          "theme": "Misericórdia",
+          "reflection": "Seu ministério no sacramento da reconciliação tornou-se conhecido. A misericórdia acolhe quem reconhece seus erros e o convida a uma mudança concreta, sem humilhação.",
+          "question": "Se alguém me procura arrependido, ofereço acolhimento e respeito?",
+          "virtue": "Misericórdia",
+          "status": "revisar"
+        },
+        {
+          "id": 4,
+          "title": "Servir sem buscar prestígio",
+          "theme": "Humildade",
+          "reflection": "Vianney viveu com simplicidade e dedicação pastoral. O serviço cristão não deve ser usado para conquistar poder ou admiração, mas para cuidar das pessoas.",
+          "question": "Em minhas responsabilidades, procuro servir ou controlar?",
+          "virtue": "Humildade",
+          "status": "revisar"
+        },
+        {
+          "id": 5,
+          "title": "A importância da comunidade",
+          "theme": "Comunidade",
+          "reflection": "O trabalho pastoral de Vianney envolvia acompanhar a vida de uma comunidade. A fé amadurece quando as pessoas se conhecem, participam e cuidam umas das outras.",
+          "question": "Como posso participar mais da vida da minha comunidade?",
+          "virtue": "Comunhão",
+          "status": "revisar"
+        },
+        {
+          "id": 6,
+          "title": "A paciência com as pessoas",
+          "theme": "Paciência",
+          "reflection": "Acompanhar consciências e histórias exige escuta e paciência. Cada pessoa possui um caminho e precisa de orientação que respeite sua dignidade e seu processo de amadurecimento.",
+          "question": "Tenho respeitado o tempo de crescimento dos outros?",
+          "virtue": "Paciência",
+          "status": "revisar"
+        },
+        {
+          "id": 7,
+          "title": "A Eucaristia no centro",
+          "theme": "Eucaristia",
+          "reflection": "Vianney tinha profunda devoção à Eucaristia. A celebração cristã reúne a comunidade e envia cada pessoa para viver o amor de Cristo no cotidiano.",
+          "question": "O que posso levar da Missa para minhas atitudes durante a semana?",
+          "virtue": "Devoção",
+          "status": "revisar"
+        },
+        {
+          "id": 8,
+          "title": "A palavra acompanhada pelo exemplo",
+          "theme": "Testemunho",
+          "reflection": "A autoridade espiritual ganha credibilidade quando a vida confirma a mensagem. Ensinar o bem exige procurar vivê-lo com honestidade e disposição para corrigir-se.",
+          "question": "Minhas atitudes confirmam aquilo que aconselho aos outros?",
+          "virtue": "Coerência",
+          "status": "revisar"
+        },
+        {
+          "id": 9,
+          "title": "Cuidar das vocações",
+          "theme": "Vocação",
+          "reflection": "Vianney é lembrado por sua oração e atenção às vocações sacerdotais. A comunidade pode ajudar cada pessoa a descobrir seus dons e discernir seu caminho com liberdade.",
+          "question": "Como posso apoiar alguém que está discernindo sua vocação?",
+          "virtue": "Acompanhamento",
+          "status": "revisar"
+        },
+        {
+          "id": 10,
+          "title": "A perseverança que frutifica",
+          "theme": "Perseverança",
+          "reflection": "Seu trabalho em Ars foi construído ao longo de muitos anos. A transformação de uma comunidade costuma exigir presença, constância e confiança, mesmo quando os resultados demoram.",
+          "question": "Que serviço bom precisa de minha presença perseverante?",
+          "virtue": "Perseverança",
+          "status": "revisar"
+        }
+      ]
+    }
+  }
+}
