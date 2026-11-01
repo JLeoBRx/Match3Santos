@@ -114,7 +114,7 @@ async function bestMove(page) {
 }
 
 async function closeTutorial(page) {
-  const btn = await page.$('.tutorial-modal .btn-primary');
+  const btn = await page.$('.sheet-tutorial .btn-primary');
   if (btn) {
     await btn.click();
     await page.waitForTimeout(300);
@@ -154,7 +154,7 @@ const browser = await chromium.launch();
   check((await page.$$('.level-node')).length === 30, 'Mapa exibe 30 fases');
   check((await page.$$('.level-node.state-locked')).length === 29, 'Somente a fase 1 começa liberada');
   await page.click('.level-node.state-available');
-  await page.click('.preview-modal .btn-primary');
+  await page.click('.sheet-preview .btn-primary');
   await page.waitForSelector('[data-screen="game"].active');
   await page.waitForTimeout(1200);
   await closeTutorial(page);
@@ -207,7 +207,7 @@ const browser = await chromium.launch();
   check(after1.title && after1.text && /^\d+\/10$/.test(after1.progress), 'Painel de reflexão atualizado (título, texto e progresso x/10)', `${after1.title} · ${after1.progress}`);
   check(!/PROVIS[ÓO]RI/i.test(after1.html), 'Nenhum marcador provisório exibido no painel');
   check(after1.noMatch, 'Após as cascatas o tabuleiro fica estável (sem combinações pendentes)');
-  check((await page.$$('.modal-overlay')).length === 0, 'A reflexão não abre janela/modal durante a partida');
+  check((await page.$$('.mds-veil')).length === 0, 'A reflexão não abre janela/modal durante a partida');
 
   // 6. Clique-clique (mouse)
   mv = await bestMove(page);
@@ -227,7 +227,7 @@ const browser = await chromium.launch();
   let sawSpecial = false;
   let maxSteps = 0;
   for (let i = 0; i < 40; i++) {
-    const over = await page.$('.result-modal');
+    const over = await page.$('.sheet-result');
     if (over) break;
     mv = await bestMove(page);
     if (!mv) break;
@@ -238,16 +238,16 @@ const browser = await chromium.launch();
     sawSpecial = sawSpecial || Boolean(await page.$('.tile.special'));
     maxSteps = Math.max(maxSteps, await app(page, () => window.matchDosSantos.store.data.stats.bestCascade));
   }
-  await page.waitForSelector('.result-modal', { timeout: 15000 });
+  await page.waitForSelector('.sheet-result', { timeout: 15000 });
   await page.waitForTimeout(1600);
-  const res = await app(page, () => ({ title: document.querySelector('.result-modal .modal-title').textContent, stars: document.querySelectorAll('.rstar.on').length, save: window.matchDosSantos.store.data.levels }));
+  const res = await app(page, () => ({ title: document.querySelector('.sheet-result .mds-heading').textContent, stars: document.querySelectorAll('.rstar.on').length, save: window.matchDosSantos.store.data.levels }));
   check(res.save.unlocked >= 2 && res.save.completed.includes(1), 'Vitória na fase 1 desbloqueia a fase 2', `${res.title} · ${res.stars}★`);
   check(res.stars >= 1 && res.save.stars[1] === res.stars, 'Estrelas exibidas e salvas', `${res.stars}`);
   check(sawQueue, 'Combinações durante o tempo de leitura ficam na fila (sem sobrepor o painel)');
   check(maxSteps >= 2, 'Cascatas ocorreram e foram registradas', `maior cascata: ${maxSteps}`);
   console.log(`   (peça especial vista durante a partida: ${sawSpecial ? 'sim' : 'não'})`);
   await page.screenshot({ path: ROOT + 'tests/screenshots/desktop-result.png' }).catch(() => {});
-  await page.click('.result-modal .btn-primary'); // próxima fase
+  await page.click('.sheet-result .btn-primary'); // próxima fase
   await page.waitForTimeout(1500);
   check(await app(page, () => window.matchDosSantos.gameScreen.session?.level?.id === 2), 'Botão "Próxima fase" inicia a fase 2');
 
@@ -282,10 +282,10 @@ const browser = await chromium.launch();
   check(hs.highScore > 0 && hs.bestStage >= 2, 'Recorde e melhor etapa do infinito salvos durante a partida', JSON.stringify(hs));
   // pausa → sair
   await page.click('.hud-back');
-  await page.waitForSelector('.pause-modal');
-  await page.click('.pause-modal .btn:not(.btn-primary)'); // Sair
+  await page.waitForSelector('.sheet-pause');
+  await page.click('.sheet-pause .btn:not(.btn-primary)'); // Sair
   await page.waitForTimeout(250);
-  await page.click('.modal-overlay:last-child .btn-primary'); // confirmar
+  await page.click('.mds-veil:last-child .btn-primary'); // confirmar
   await page.waitForSelector('[data-screen="home"].active');
   check(true, 'Pausa → Sair volta à tela inicial');
 
@@ -370,6 +370,38 @@ const browser = await chromium.launch();
   const geo = await app(page, () => ({ size: document.querySelector('.board').getBoundingClientRect().width, layout: document.querySelector('.game-layout').className }));
   check(geo.layout.includes('is-side') && geo.size >= 300, 'Paisagem: painel ao lado e tabuleiro priorizado', JSON.stringify(geo));
   check(await noHorizontalScroll(page), 'Paisagem: sem rolagem horizontal');
+  await ctx.close();
+}
+
+// ================================================================== JANELAS EM TELA BAIXA
+{
+  const ctx = await browser.newContext({ viewport: { width: 1334, height: 494 } });
+  const page = await ctx.newPage();
+  watch(page, 'tela-baixa');
+  await page.goto(BASE + 'index.html');
+  await page.waitForSelector('[data-screen="home"].active', { timeout: 20000 });
+  await page.click('#btn-play');
+  await page.waitForSelector('[data-screen="levels"].active');
+  await page.click('.level-node.state-available');
+  await page.waitForSelector('.sheet-preview .mds-sheet');
+  await page.waitForTimeout(450);
+  const sheet = await app(page, () => {
+    const q = (s) => document.querySelector('.sheet-preview ' + s).getBoundingClientRect();
+    const box = q('.mds-sheet');
+    const head = q('.mds-heading');
+    const body = q('.mds-sheet-body');
+    const btn = q('.btn-primary');
+    return { boxH: box.height, headAbove: head.bottom <= body.top + 1, btnVisible: btn.top >= 0 && btn.bottom <= innerHeight && btn.bottom <= box.bottom + 1, dir: getComputedStyle(document.querySelector('.mds-sheet')).flexDirection };
+  });
+  check(sheet.dir === 'column' && sheet.headAbove && sheet.boxH > 200, 'Tela baixa: janela da fase em coluna (título acima do conteúdo)', JSON.stringify(sheet));
+  check(sheet.btnVisible, 'Tela baixa: botão "Jogar" visível sem rolar');
+  await page.click('.sheet-preview .btn-primary');
+  await page.waitForSelector('.sheet-tutorial .btn-primary');
+  const tut = await app(page, () => {
+    const b = document.querySelector('.sheet-tutorial .btn-primary').getBoundingClientRect();
+    return b.top >= 0 && b.bottom <= innerHeight;
+  });
+  check(tut, 'Tela baixa: botão do tutorial visível sem rolar');
   await ctx.close();
 }
 

@@ -664,7 +664,7 @@
   width: 80%;
 }
 
-.board-banner {
+.board-callout {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -688,12 +688,12 @@
   visibility: hidden;
 }
 
-.board-banner.show {
+.board-callout.show {
   visibility: visible;
   animation: bannerInOut 2.4s ease forwards;
 }
 
-.board-banner strong {
+.board-callout strong {
   font-family: var(--f-display);
   font-size: 1.6rem;
   font-weight: 900;
@@ -703,7 +703,7 @@
   color: transparent;
 }
 
-.board-banner span {
+.board-callout span {
   color: var(--c-lavender);
   font-weight: 700;
   font-size: 0.92rem;
@@ -1173,18 +1173,23 @@
   box-shadow: none;
 }
 
-.result-modal .modal-title {
+.sheet-result .mds-sheet-head {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.sheet-result .mds-heading {
   text-align: center;
   font-size: 2rem;
   padding: 0;
 }
 
-.result-modal .modal-eyebrow {
+.sheet-result .mds-kicker {
   text-align: center;
   padding: 0;
 }
 
-.result-modal.win .modal-title {
+.sheet-result.win .mds-heading {
   background: var(--g-gold-text);
   -webkit-background-clip: text;
   background-clip: text;

@@ -168,15 +168,23 @@ export function renderLevelPreview(level, { store, saints }) {
   return el(
     'div',
     { class: 'level-preview' },
-    featured ? el('div', { class: 'preview-hero' }, el('img', { src: featured.thumbUrl, alt: featured.name }), el('span', {}, `Em destaque: ${featured.name}`)) : null,
-    el('div', { class: 'preview-moves', html: `${icon('target')}<span><strong>${level.moves}</strong> movimentos</span>` }),
-    el('h4', {}, level.goals.length > 1 ? 'Objetivos (todos)' : 'Objetivo'),
-    goals,
-    el('h4', {}, 'Santos nesta fase'),
-    pool,
-    el('h4', {}, 'Estrelas'),
-    starLine,
-    best ? el('p', { class: 'preview-best', html: `Melhor pontuação: <strong>${escapeHtml(formatNumber(best))}</strong>` }) : null,
+    el(
+      'div',
+      { class: 'lp-col' },
+      featured ? el('div', { class: 'preview-hero' }, el('img', { src: featured.thumbUrl, alt: featured.name }), el('span', {}, `Em destaque: ${featured.name}`)) : null,
+      el('div', { class: 'preview-moves', html: `${icon('target')}<span><strong>${level.moves}</strong> movimentos</span>` }),
+      el('h4', {}, level.goals.length > 1 ? 'Objetivos (todos)' : 'Objetivo'),
+      goals,
+    ),
+    el(
+      'div',
+      { class: 'lp-col' },
+      el('h4', {}, 'Santos nesta fase'),
+      pool,
+      el('h4', {}, 'Estrelas'),
+      starLine,
+      best ? el('p', { class: 'preview-best', html: `Melhor pontuação: <strong>${escapeHtml(formatNumber(best))}</strong>` }) : null,
+    ),
   );
 }
 

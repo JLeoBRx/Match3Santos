@@ -8,7 +8,7 @@ export class UI {
   constructor() {
     this.screens = new Map([...document.querySelectorAll('.screen')].map((s) => [s.dataset.screen, s]));
     this.current = null;
-    this.modalRoot = document.getElementById('modal-root');
+    this.modalRoot = document.getElementById('sheet-root');
     this.toastRoot = document.getElementById('toast-root');
     this.modalStack = [];
     this.onShow = new Set();
@@ -55,55 +55,63 @@ export class UI {
    * @param {string} [o.className]
    */
   modal({ title, body, actions = [], dismissible = true, className = '', eyebrow = '' }) {
+    // Nomes de classe exclusivos (prefixo "mds-", sem "modal"/"popup"/"overlay"):
+    // extensões de navegador (bloqueadores de pop-up, modo leitura etc.) costumam
+    // restilizar elementos com esses nomes genéricos e quebrar o layout.
     return new Promise((resolve) => {
-      const overlay = el('div', { class: `modal-overlay ${className}` });
+      const veil = el('div', { class: `mds-veil ${className}` });
       const close = (value) => {
         if (entry.closed) return;
         entry.closed = true;
-        overlay.classList.add('closing');
+        veil.classList.add('closing');
         this.modalStack.splice(this.modalStack.indexOf(entry), 1);
-        setTimeout(() => overlay.remove(), 200);
-        if (!this.modalStack.length) document.body.classList.remove('has-modal');
+        setTimeout(() => veil.remove(), 200);
+        if (!this.modalStack.length) document.body.classList.remove('has-sheet');
         resolve(value);
       };
       const entry = { close, dismissible, closed: false };
-      const titleId = 'modal-title-' + Math.random().toString(36).slice(2, 8);
-      const box = el('div', { class: 'modal', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': titleId });
-      if (dismissible) box.append(el('button', { class: 'modal-close icon-btn', type: 'button', 'aria-label': 'Fechar', html: icon('close'), onclick: () => close(null) }));
-      if (eyebrow) box.append(el('div', { class: 'modal-eyebrow' }, eyebrow));
-      box.append(el('h2', { class: 'modal-title', id: titleId }, title));
-      if (body) box.append(el('div', { class: 'modal-body' }, typeof body === 'string' ? el('p', {}, body) : body));
+      const titleId = 'mds-heading-' + Math.random().toString(36).slice(2, 8);
+      const sheet = el('div', { class: 'mds-sheet', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': titleId });
+
+      // Cabeçalho fixo
+      const head = el('div', { class: 'mds-sheet-head' });
+      if (eyebrow) head.append(el('div', { class: 'mds-kicker' }, eyebrow));
+      head.append(el('h2', { class: 'mds-heading', id: titleId }, title));
+      if (dismissible) head.append(el('button', { class: 'mds-x icon-btn', type: 'button', 'aria-label': 'Fechar', html: icon('close'), onclick: () => close(null) }));
+      sheet.append(head);
+
+      // Conteúdo (único trecho que rola quando a tela é baixa)
+      if (body) sheet.append(el('div', { class: 'mds-sheet-body' }, typeof body === 'string' ? el('p', {}, body) : body));
+
+      // Botões fixos no rodapé — sempre visíveis
       if (actions.length) {
-        box.append(
+        sheet.append(
           el(
             'div',
-            { class: 'modal-actions' },
+            { class: 'mds-sheet-actions' },
             actions.map((a) =>
-              el(
-                'button',
-                {
-                  class: `btn ${a.primary ? 'btn-primary' : 'btn-ghost'} ${a.className || ''}`,
-                  type: 'button',
-                  onclick: () => close(a.value),
-                  html: `${a.icon ? icon(a.icon) : ''}<span>${a.label}</span>`,
-                },
-              ),
+              el('button', {
+                class: `btn ${a.primary ? 'btn-primary' : 'btn-ghost'} ${a.className || ''}`,
+                type: 'button',
+                onclick: () => close(a.value),
+                html: `${a.icon ? icon(a.icon) : ''}<span>${a.label}</span>`,
+              }),
             ),
           ),
         );
       }
-      overlay.append(box);
-      overlay.addEventListener('pointerdown', (e) => {
-        if (e.target === overlay && dismissible) close(null);
+      veil.append(sheet);
+      veil.addEventListener('pointerdown', (e) => {
+        if (e.target === veil && dismissible) close(null);
       });
-      this.modalRoot.append(overlay);
-      document.body.classList.add('has-modal');
+      this.modalRoot.append(veil);
+      document.body.classList.add('has-sheet');
       this.modalStack.push(entry);
       requestAnimationFrame(() => {
-        const primary = box.querySelector('.btn-primary') || box.querySelector('button');
+        const primary = sheet.querySelector('.btn-primary') || sheet.querySelector('button');
         primary?.focus({ preventScroll: true });
       });
-      entry.overlay = overlay;
+      entry.overlay = veil;
     });
   }
 

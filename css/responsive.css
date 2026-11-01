@@ -38,12 +38,23 @@
     font-size: 0.86rem;
   }
 
-  .modal {
-    padding: 22px 16px 16px;
+  .mds-sheet {
     border-radius: 24px;
   }
 
-  .modal-title {
+  .mds-sheet-head {
+    padding: 20px 56px 0 16px;
+  }
+
+  .mds-sheet-body {
+    padding: 10px 16px 2px;
+  }
+
+  .mds-sheet-actions {
+    padding: 14px 16px 16px;
+  }
+
+  .mds-heading {
     font-size: 1.4rem;
   }
 
@@ -424,5 +435,52 @@
 
   .board {
     cursor: pointer;
+  }
+}
+
+/* ---------- Janelas em telas baixas e largas: conteúdo em duas colunas ---------- */
+@media (max-height: 600px) and (min-width: 640px) {
+  .sheet-preview .mds-sheet,
+  .sheet-tutorial .mds-sheet {
+    width: min(780px, 100%);
+  }
+
+  .level-preview {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 22px;
+    align-items: start;
+  }
+
+  .level-preview h4 {
+    margin-top: 10px;
+  }
+
+  .tutorial {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 22px;
+  }
+
+  .sheet-result .mds-sheet {
+    width: min(620px, 100%);
+  }
+
+  .rstar .icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .rstar:nth-child(2) .icon {
+    width: 54px;
+    height: 54px;
+  }
+
+  .result {
+    gap: 8px;
+  }
+
+  .result-emblem {
+    width: 60px;
+    height: 60px;
   }
 }

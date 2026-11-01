@@ -50,7 +50,7 @@ export class GameScreen {
       this.goalsEl,
     );
     this.boardEl = el('div', { class: 'board', tabindex: '0', 'aria-label': 'Tabuleiro: toque em duas peças vizinhas ou arraste para trocar' });
-    this.banner = el('div', { class: 'board-banner', 'aria-live': 'polite' });
+    this.banner = el('div', { class: 'board-callout', 'aria-live': 'polite' });
     this.frame = el('div', { class: 'board-frame' }, this.boardEl, this.banner);
     this.panelEl = el('aside', { class: 'reflection-panel', 'aria-label': 'Painel de reflexões' });
     this.side = el('div', { class: 'game-side' }, this.hud, this.panelEl);
@@ -333,7 +333,7 @@ export class GameScreen {
       body,
       actions,
       dismissible: false,
-      className: `result-modal ${res.won ? 'win' : 'lose'}`,
+      className: `sheet-result ${res.won ? 'win' : 'lose'}`,
     });
     if (res.won) {
       const stars = [...starsBox.children];
@@ -376,7 +376,7 @@ export class GameScreen {
       eyebrow: 'Modo Infinito',
       body,
       dismissible: false,
-      className: 'result-modal endless',
+      className: 'sheet-result endless',
       actions: [
         { label: 'Início', value: 'home', icon: 'home' },
         { label: 'Jogar de novo', value: 'retry', primary: true, icon: 'refresh' },
@@ -422,7 +422,7 @@ export class GameScreen {
       title: 'Pausa',
       eyebrow: `${s.title} · ${s.subtitle}`,
       body,
-      className: 'pause-modal',
+      className: 'sheet-pause',
       actions: [
         { label: 'Sair', value: 'exit', icon: 'home' },
         { label: 'Reiniciar', value: 'restart', icon: 'refresh' },

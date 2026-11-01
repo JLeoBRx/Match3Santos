@@ -468,7 +468,7 @@ body.reduced-motion .float-text {
   animation-duration: 0.9s !important;
 }
 
-body.reduced-motion .board-banner.show {
+body.reduced-motion .board-callout.show {
   animation: none !important;
   opacity: 1;
   transform: translate(-50%, -50%);

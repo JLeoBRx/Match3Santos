@@ -175,7 +175,7 @@ Roda os 25 testes de lógica e de dados. Para rodar os mesmos testes no navegado
 ```bash
 node tests/e2e.mjs
 ```
-Roda o teste de ponta a ponta com Playwright (`npm i -D playwright` e `npx playwright install chromium`). O teste joga de verdade em computador, celular (toque) e paisagem e faz 42 verificações, como:
+Roda o teste de ponta a ponta com Playwright (`npm i -D playwright` e `npx playwright install chromium`). O teste joga de verdade em computador, celular (toque) e paisagem e faz 45 verificações, como:
 - imagens que não carregaram;
 - trocas válidas e inválidas;
 - painel de reflexões;

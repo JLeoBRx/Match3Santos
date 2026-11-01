@@ -280,7 +280,7 @@ export class App {
       eyebrow: `Fase ${level.id}${level.chapter ? ' · ' + level.chapter : ''}`,
       title: level.name,
       body: renderLevelPreview(level, { store: this.store, saints: this.saints }),
-      className: 'preview-modal',
+      className: 'sheet-preview',
       actions: [{ label: 'Jogar', value: 'play', primary: true, icon: 'play' }],
     });
     if (choice === 'play') this.gameScreen.startLevel(level.id);
@@ -299,7 +299,7 @@ export class App {
     );
     const wasGame = this.ui.currentName === 'game' && this.gameScreen.game;
     if (wasGame) this.gameScreen.game.setPaused(true);
-    await this.ui.modal({ title: 'Como jogar', body, className: 'tutorial-modal', actions: [{ label: 'Entendi!', value: 'ok', primary: true }] });
+    await this.ui.modal({ title: 'Como jogar', body, className: 'sheet-tutorial', actions: [{ label: 'Entendi!', value: 'ok', primary: true }] });
     if (wasGame && this.gameScreen.game) this.gameScreen.game.setPaused(false);
     if (!this.store.prefs.seenTutorial) this.store.update((d) => (d.preferences.seenTutorial = true));
   }
